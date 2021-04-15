@@ -28,8 +28,7 @@ C:\&gt; <span class="token namespace">[System.IO.Compression.ZipFile]</span>::Ex
 </code></pre>
 <p>Por último habilitamos los drivers con la instancia en estado <strong>STOP</strong>.</p>
 <h3 id="aws-cli">AWS CLI</h3>
-<pre class=" language-bash"><code class="prism  language-bash">$ aws ec2 describe-instances --instance-ids i-04f6fec32990cf732 --query <span class="token string">"Reservations[].Instances[].EnaSupport"</span> 
-
-$ aws ec2 modify-instance-attribute --instance-id i-04f6fec32990cf732 --ena-support
+<pre class=" language-bash"><code class="prism  language-bash">aws ec2 describe-instances --instance-ids i-04f6fec32990cf732 --query <span class="token string">"Reservations[].Instances[].EnaSupport"</span> 
+aws ec2 modify-instance-attribute --instance-id i-04f6fec32990cf732 --ena-support
 </code></pre>
 
