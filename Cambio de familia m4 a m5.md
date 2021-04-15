@@ -30,7 +30,6 @@
 </li>
 </ol>
 <pre class=" language-bash"><code class="prism  language-bash">aws ec2 modify-instance-attribute --instance-id i-04538e3b48b425f36 --ena-support
-
 aws ec2 describe-instances --instance-ids i-04538e3b48b425f36 --query <span class="token string">"Reservations[].Instances[].EnaSupport"</span>
 </code></pre>
 <ol start="6">
