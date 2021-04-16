@@ -20,7 +20,7 @@
 <p>Instalamos <a href="https://s3.amazonaws.com/ec2-downloads-windows/EC2Config/EC2Install.zip">EC2Config</a> <strong>(Opcional)</strong></p>
 </li>
 <li>
-<p>Instalamos los <a href="https://s3.amazonaws.com/ec2-windows-drivers-downloads/AWSPV/Latest/AWSPVDriver.zip">AWSPVDrivers</a>.</p>
+<p>Instalamos los <a href="https://s3.amazonaws.com/ec2-windows-drivers-downloads/AWSPV/Latest/AWSPVDriver.zip">AWSPVDrivers</a>. (<strong>AWSPVDriverSetup.msi</strong>)</p>
 </li>
 <li>
 <p>Detenemos la instancia.</p>
@@ -40,10 +40,10 @@ aws ec2 describe-instances --instance-ids i-04538e3b48b425f36 --query <span clas
 <p>instalamos <a href="https://s3.amazonaws.com/ec2-windows-drivers-downloads/NVMe/Latest/AWSNVMe.zip">AWSNVMe</a>.  (<strong>dpinst.exe</strong>)</p>
 </li>
 <li>
-<p>Abrimos el powershell.</p>
+<p>Abrimos el powershell como <strong>administrador</strong> y ejecutamos el siguiente comando:</p>
 </li>
 </ol>
-<pre class=" language-powershel"><code class="prism  language-powershel">PS c:\&gt; rundll32.exe C:\Windows\System32\sppnp.dll,Sysprep_Generalize_Pnp
+<pre class=" language-powershel"><code class="prism  language-powershel">rundll32.exe C:\Windows\System32\sppnp.dll,Sysprep_Generalize_Pnp
 </code></pre>
 <ul>
 <li>Esperamos unos 3 minutos</li>
@@ -57,6 +57,6 @@ aws ec2 describe-instances --instance-ids i-04538e3b48b425f36 --query <span clas
 </li>
 </ol>
 <h4 id="comprobar-pvdrivers">Comprobar PVDrivers</h4>
-<pre class=" language-powershell"><code class="prism  language-powershell">C\&gt; <span class="token function">Get-ItemProperty</span> HKLM:\SOFTWARE\Amazon\PVDriver
+<pre class=" language-powershell"><code class="prism  language-powershell"><span class="token function">Get-ItemProperty</span> HKLM:\SOFTWARE\Amazon\PVDriver
 </code></pre>
 
