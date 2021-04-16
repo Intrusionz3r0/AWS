@@ -37,7 +37,7 @@ aws ec2 describe-instances --instance-ids i-04538e3b48b425f36 --query <span clas
 <p>Iniciamos la instancia e instalamos <a href="https://s3.amazonaws.com/ec2-windows-drivers-downloads/ENA/Latest/AwsEnaNetworkDriver.zip">AwsEnaNetworkDriver</a>.</p>
 </li>
 <li>
-<p>instalamos <a href="https://s3.amazonaws.com/ec2-windows-drivers-downloads/NVMe/Latest/AWSNVMe.zip">AWSNVMe</a>.</p>
+<p>instalamos <a href="https://s3.amazonaws.com/ec2-windows-drivers-downloads/NVMe/Latest/AWSNVMe.zip">AWSNVMe</a>.  (<strong>dpinst.exe</strong>)</p>
 </li>
 <li>
 <p>Abrimos el powershell.</p>
