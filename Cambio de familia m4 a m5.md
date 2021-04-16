@@ -43,7 +43,7 @@ aws ec2 describe-instances --instance-ids i-04538e3b48b425f36 --query <span clas
 <p>Abrimos el cmd.</p>
 </li>
 </ol>
-<pre><code>c:\&gt; rundll32.exe C:\Windows\System32\sppnp.dll,Sysprep_Generalize_Pnp
+<pre><code>c:\Windows&gt; rundll32.exe C:\Windows\System32\sppnp.dll,Sysprep_Generalize_Pnp
 </code></pre>
 <ul>
 <li>Esperamos unos 3 minutos</li>
@@ -56,4 +56,7 @@ aws ec2 describe-instances --instance-ids i-04538e3b48b425f36 --query <span clas
 <p>Comprobar el cambio de familia.</p>
 </li>
 </ol>
+<h4 id="comprobar-pvdrivers">Comprobar PVDrivers</h4>
+<pre class=" language-powershell"><code class="prism  language-powershell">C\&gt; <span class="token function">Get-ItemProperty</span> HKLM:\SOFTWARE\Amazon\PVDriver
+</code></pre>
 
