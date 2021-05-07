@@ -31,15 +31,12 @@
 <li>Busca el documento con nombre: <strong>AWSSupport-RunEC2RescueForWindowsTool</strong>.</li>
 <li>Selecciona la instancia.<br>
 <strong><img src="https://lh5.googleusercontent.com/YyfbIMPZqpmQSfKLrfcnClzeeqn56ZN13fmV0git6oud70TkwqIxLs0qPRdNyeTIOzP3MHLYMjP4tboXFYblawB8A4EaasivtSrErIvKHd1XlJ6n3NWDHs05Wmtw7Yy-0jH735D7" alt=""></strong></li>
-<li>Ejecutamos el documeto.</li>
+<li>haz clic en <strong>RUN</strong> y espera a que termine el proceso.</li>
 </ol>
 <p><img src="https://lh3.googleusercontent.com/dBt3R0r4h6b9efaqi_HwB1JZIpoMqZTB3RR-MTqrC6DoipP5mI1F24b9W57DcwgK0qIqmAxtrJ5cyibm8Pz8cDZ_nNRsNlhGkf5ya3Vje3lYWKF2H-dTCQ2aE_xjJL3Xi3Ec2G7e" alt=""></p>
 <ol start="9">
-<li>Clic en el id de la instancia.</li>
+<li>Por último, haz clic en el id de tu instancia y dirígete al enlace.</li>
 </ol>
-<p><img src="https://lh5.googleusercontent.com/42cvdjQjCxCC4YmggVsYVQ0YYRljWYT3y876G-1WWAgk1iofKedDctHQX3Lh-HD2PAXo5Rw4Xn3Box64hQzyS6b37RqXG3x7vOlycICIKJX48tYPkl2oF0k9H00R5uNIuaO-O5Zt" alt=""></p>
-<ol start="10">
-<li>Ir al enlace.</li>
-</ol>
-<p><img src="https://lh4.googleusercontent.com/L2a5cWbpggbiaJpNMmFPnlCG9Dpa6GJtqShcfMaw_TrkdrK60IRVNRaxMxlBwaafBk4EFtmiir6Wc1Nnvs_SPRlrlgBwrpvgxVMgqOVU4BY7zVX3wQG6zccTtmgMKMgCFf9CnrRq" alt=""></p>
+<p><img src="https://lh5.googleusercontent.com/42cvdjQjCxCC4YmggVsYVQ0YYRljWYT3y876G-1WWAgk1iofKedDctHQX3Lh-HD2PAXo5Rw4Xn3Box64hQzyS6b37RqXG3x7vOlycICIKJX48tYPkl2oF0k9H00R5uNIuaO-O5Zt" alt=""><br>
+<img src="https://lh4.googleusercontent.com/L2a5cWbpggbiaJpNMmFPnlCG9Dpa6GJtqShcfMaw_TrkdrK60IRVNRaxMxlBwaafBk4EFtmiir6Wc1Nnvs_SPRlrlgBwrpvgxVMgqOVU4BY7zVX3wQG6zccTtmgMKMgCFf9CnrRq" alt=""></p>
 
