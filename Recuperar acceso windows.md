@@ -25,13 +25,26 @@
 <span class="token punctuation">}</span>
 </code></pre>
 <ol start="3">
-<li>Adjunta la política al rol creado anteriormente.</li>
-<li>Adjunta el rol a tu instancia <strong>windows</strong>.</li>
-<li>Dirigete a <strong>AWS Systems Manager</strong> luego a <strong>Run Command</strong>.</li>
-<li>Busca el documento con nombre: <strong>AWSSupport-RunEC2RescueForWindowsTool</strong>.</li>
-<li>Selecciona la instancia.<br>
-<strong><img src="https://lh5.googleusercontent.com/YyfbIMPZqpmQSfKLrfcnClzeeqn56ZN13fmV0git6oud70TkwqIxLs0qPRdNyeTIOzP3MHLYMjP4tboXFYblawB8A4EaasivtSrErIvKHd1XlJ6n3NWDHs05Wmtw7Yy-0jH735D7" alt=""></strong></li>
-<li>haz clic en <strong>RUN</strong> y espera a que termine el proceso.</li>
+<li>
+<p>Adjunta la política al rol creado anteriormente.</p>
+</li>
+<li>
+<p>Adjunta el rol a tu instancia <strong>windows</strong>.</p>
+</li>
+<li>
+<p>Dirigete a <strong>AWS Systems Manager</strong> luego a <strong>Run Command</strong>.</p>
+</li>
+<li>
+<p>Busca el documento con nombre: <strong>AWSSupport-RunEC2RescueForWindowsTool</strong>.</p>
+</li>
+<li>
+<p>Selecciona la instancia.<br>
+<strong><img src="https://lh5.googleusercontent.com/YyfbIMPZqpmQSfKLrfcnClzeeqn56ZN13fmV0git6oud70TkwqIxLs0qPRdNyeTIOzP3MHLYMjP4tboXFYblawB8A4EaasivtSrErIvKHd1XlJ6n3NWDHs05Wmtw7Yy-0jH735D7" alt=""></strong><br>
+<strong>Nota:</strong> Si no aparece la instancia recomiendo crear otra instancia nueva y adjuntarle el disco de la instancia a recuperar, una vez hecho el procedimiento des adjunta el disco y adjuntado en la original.</p>
+</li>
+<li>
+<p>haz clic en <strong>RUN</strong> y espera a que termine el proceso.</p>
+</li>
 </ol>
 <p><img src="https://lh3.googleusercontent.com/dBt3R0r4h6b9efaqi_HwB1JZIpoMqZTB3RR-MTqrC6DoipP5mI1F24b9W57DcwgK0qIqmAxtrJ5cyibm8Pz8cDZ_nNRsNlhGkf5ya3Vje3lYWKF2H-dTCQ2aE_xjJL3Xi3Ec2G7e" alt=""></p>
 <ol start="9">
