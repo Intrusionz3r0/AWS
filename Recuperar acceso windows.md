@@ -40,7 +40,7 @@
 <li>
 <p>Selecciona la instancia.<br>
 <strong><img src="https://lh5.googleusercontent.com/YyfbIMPZqpmQSfKLrfcnClzeeqn56ZN13fmV0git6oud70TkwqIxLs0qPRdNyeTIOzP3MHLYMjP4tboXFYblawB8A4EaasivtSrErIvKHd1XlJ6n3NWDHs05Wmtw7Yy-0jH735D7" alt=""></strong><br>
-<strong>Nota:</strong> Si no aparece la instancia recomiendo crear otra instancia nueva y adjuntarle el disco de la instancia a recuperar, una vez hecho el procedimiento des adjunta el disco y adjuntado en la original.</p>
+<strong>Nota:</strong> Si no aparece la instancia recomiendo crear otra instancia nueva y adjuntarle el disco de la instancia a recuperar, una vez hecho el procedimiento des-adjunta el disco y adjúntalo nuevamente en la original.</p>
 </li>
 <li>
 <p>haz clic en <strong>RUN</strong> y espera a que termine el proceso.</p>
