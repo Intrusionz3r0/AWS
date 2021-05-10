@@ -16,19 +16,23 @@ C:\&gt; <span class="token namespace">[System.IO.Compression.ZipFile]</span>::Ex
 C:\&gt; <span class="token namespace">[System.IO.Compression.ZipFile]</span>::ExtractToDirectory<span class="token punctuation">(</span><span class="token string">"C:\Windows\system32\config\systemprofile\AwsEnaNetworkDriver.zip"</span><span class="token punctuation">,</span> <span class="token string">"C:\Windows\system32\config\systemprofile\AwsEna"</span><span class="token punctuation">)</span>
 </code></pre>
 <ol>
-<li>Dentro de la carpeta <strong>AWSPVDriver</strong> ejecutamos el<br>
-<em>AWSPVDriverSetup.msi</em>*.</li>
+<li>Dentro de la carpeta <strong>AWSPVDriver</strong> ejecutamos   <em>AWSPVDriverSetup.msi</em>.</li>
 </ol>
 <pre class=" language-powershell"><code class="prism  language-powershell">C\&gt; <span class="token punctuation">.</span>\AWSPVDriverSetup<span class="token punctuation">.</span>msi
 </code></pre>
 <ol start="2">
-<li>Dentro de la carpeta <strong>AwsEna</strong> ejecutamos el <em>install.ps1</em>.</li>
+<li>Habilitamos la compatibilidad con ENA.</li>
 </ol>
-<pre class=" language-powershell"><code class="prism  language-powershell">C\&gt; <span class="token punctuation">.</span>\install<span class="token punctuation">.</span>ps1
-</code></pre>
-<p>Por último habilitamos los drivers con la instancia en estado <strong>STOP</strong>.</p>
 <h3 id="aws-cli">AWS CLI</h3>
 <pre class=" language-bash"><code class="prism  language-bash">aws ec2 describe-instances --instance-ids i-04f6fec32990cf732 --query <span class="token string">"Reservations[].Instances[].EnaSupport"</span> 
 aws ec2 modify-instance-attribute --instance-id i-04f6fec32990cf732 --ena-support
 </code></pre>
+<ol start="3">
+<li>Dentro de la carpeta <strong>AwsEna</strong> ejecutamos el <em>install.ps1</em>.</li>
+</ol>
+<pre class=" language-powershell"><code class="prism  language-powershell">C\&gt; <span class="token punctuation">.</span>\install<span class="token punctuation">.</span>ps1
+</code></pre>
+<ol start="4">
+<li>Detenemos la instancia y hacemos el cambio de familia.</li>
+</ol>
 
