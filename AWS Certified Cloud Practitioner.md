@@ -80,7 +80,8 @@
 <td><em>Recomendado si tiene cargas de trabajo críticas o empresariales en AWS.</em> (Obtienes un <strong>TAM</strong> Asesor de AWS</td>
 </tr>
 </tbody>
-</table><h2 id="iam-identity-and-access-management">IAM (Identity and Access Management)</h2>
+</table><p><strong><img src="https://lh3.googleusercontent.com/uatJJhL6jEky84eXzs8zIAKc_4cL1pWyzHVfuWmrDu1L-ySLy7QE0ojCkiv55oRXmXJOLmsk6VWv-t0Pirinn6-bwL_mlZY-zRMVBROJFAqKwm7nV2NIGlcRtYgJYn0Exod5bfJ-" alt=""></strong></p>
+<h2 id="iam-identity-and-access-management">IAM (Identity and Access Management)</h2>
 <p><img src="https://i0.wp.com/sra.io/wp-content/uploads/2020/01/AWS-IAM-Exploitation.png?fit=1102,620&amp;ssl=1" alt="enter image description here"></p>
 <p><strong>IAM:</strong> AWS Identity and Access Management (IAM) es un servicio web que le ayuda a controlar de forma segura el acceso a los recursos de AWS. Utilice IAM para controlar quién está autenticado (ha iniciado sesión) y autorizado (tiene permisos) para utilizar recursos. <strong>Es un servicio Global.</strong></p>
 <ul>
@@ -225,7 +226,7 @@
 <h1 id="ec2">EC2</h1>
 <p><img src="https://benjagarrido.com/wp-content/uploads/2020/03/Amazon_AWS_EC2.jpg" alt="enter image description here"></p>
 <p><strong>Amazon Elastic Compute Cloud (Amazon EC2)</strong> es un servicio web que proporciona capacidad informática en la nube segura y de tamaño modificable.</p>
-<p><strong>Opciones de compra de EC2</strong></p>
+<h2 id="opciones-de-compra-de-ec2">Opciones de compra de EC2</h2>
 <ul>
 <li>
 <p><strong>Instancias bajo demanda</strong>: pague por  segundos  por las instancias que lance.</p>
@@ -243,7 +244,7 @@
 <p><strong>Instancias dedicadas</strong>: Pague por hora las instancias que se ejecutan en hardware de un solo propietario.</p>
 </li>
 <li>
-<p><strong>Reserva de capacidads</strong>  – Reserva de capacidad para las instancias EC2 en una zona de disponibilidad específica para cualquier duración.</p>
+<p><strong>Reserva de capacidad</strong>  – Reserva de capacidad para las instancias EC2 en una zona de disponibilidad específica para cualquier duración.</p>
 </li>
 </ul>
 <h3 id="puertos-a-recordar">Puertos a recordar</h3>
@@ -369,6 +370,79 @@
 <p><img src="https://cdn-ssl-devio-img.classmethod.jp/wp-content/uploads/2018/12/aws-global-accelerator-eyecatch.jpeg" alt="enter image description here"></p>
 <p><strong>AWS Global Accelerator</strong> es un servicio de redes que envía el tráfico del usuario a través de la infraestructura de red de Amazon Web Services, lo que mejora hasta en un 60 % el rendimiento del usuario de Internet. Cuando Internet se congestiona, las mejoras de enrutamiento automático de Global Accelerator lo ayudarán a mantener un nivel bajo de pérdida de datos, fluctuación y latencia.</p>
 <p><img src="https://d2908q01vomqb2.cloudfront.net/4d134bc072212ace2df385dae143139da74ec0ef/2019/12/19/1n-1024x389.png" alt="Habilitación de la creación e implementación automatizada de código de  mainframe para Instituciones Financieras que utilizan servicios AWS y  soluciones Micro Focus | Blog de Amazon Web Services (AWS)"></p>
+<h1 id="precios-de-aws">Precios de AWS</h1>
+<h2 id="aws-budgets">AWS Budgets</h2>
+<p><strong>AWS Budgets</strong> ofrece la posibilidad de definir presupuestos personalizados que le envíen una alerta cuando los costos o el uso superan el importe presupuestado o si se prevé que lo superen. También puede utilizar el servicio de Presupuestos de AWS para definir los objetivos de uso o cobertura de reservas y recibir alertas cuando el uso disminuya por debajo del umbral definido. <strong>Before</strong></p>
+<h2 id="aws-cost-explorer">AWS Cost Explorer</h2>
+<p><strong>AWS Cost Explorer</strong> tiene una interfaz sencilla que permite visualizar, comprender y administrar sus costos y uso de AWS a lo largo del tiempo. Comience rápidamente creando informes personalizados que analizan los datos de costos y uso. <strong>Después</strong></p>
+<h2 id="filosofía-de-precios-de-aws-importante">Filosofía de precios de AWS [Importante]</h2>
+<ul>
+<li>Pague sobre la marcha</li>
+<li>Pague por lo que usa</li>
+<li>Paga menos a medida de que usa mas</li>
+<li>Pague aún menos cuando reserva nuestra capacidad</li>
+</ul>
+<h2 id="servicios-libres-de-aws">Servicios libres de AWS</h2>
+<ul>
+<li>IAM</li>
+<li>Beanstalk</li>
+<li>VPC</li>
+<li>CloudFormation</li>
+<li>Auto Scaling</li>
+<li>OpsWorks</li>
+<li>Facturación consolidada</li>
+</ul>
+<h2 id="que-determina-el-precio-en-una-ec2">Que determina el precio en una EC2</h2>
+<ul>
+<li>Tiempo de ejecución.</li>
+<li>Tipo de instancia</li>
+<li>Modelo de precio</li>
+<li>Numero de instacias</li>
+<li>Monitoreo detallado</li>
+<li>Auto Scaling</li>
+<li>Elastic IP Adress</li>
+<li>Systema operativo o software</li>
+</ul>
+<h2 id="que-determina-el-precio-de-ebs">Que determina el precio de EBS</h2>
+<ul>
+<li>Precio por volumen (GB)</li>
+<li>Snapshots (GB)</li>
+<li>Transferencia de datos</li>
+</ul>
+<h2 id="que-determina-el-precio-de-s3">Que determina el precio de S3</h2>
+<ul>
+<li>Clase de S3</li>
+<li>Almacenamiento</li>
+<li>Requests(GET,PUT,COPY)</li>
+<li>Transferencia de datos</li>
+</ul>
+<h2 id="que-determina-el-precio-de-rds">Que determina el precio de RDS</h2>
+<ul>
+<li>Tiempo de ejecución.</li>
+<li>Caracteristicas de RDS</li>
+<li>Tipo de RDS</li>
+<li>Numero de instancias RDS</li>
+<li>Almacenamiento aprovicionado</li>
+<li>Requests</li>
+<li>Almacenamiento adicional</li>
+<li>Tipo de despliegue</li>
+<li>Transferencia de datos</li>
+<li></li>
+</ul>
+<h2 id="que-determina-el-precio-de-cloudfront">Que determina el precio de CloudFront</h2>
+<ul>
+<li>Distribución de trafico</li>
+<li>Requests</li>
+<li>Transferencia de salida de datos.</li>
+</ul>
+<h2 id="aws-organizations">AWS Organizations</h2>
+<p><img src="https://volkanpaksoy.com/images/vpblogimg/2018/09/aws-organizations-01-logo.png" alt="enter image description here"></p>
+<p><strong>AWS Organizations</strong> lo ayuda a administrar y controlar de manera centralizada su entorno a medida que crece y escala sus recursos de AWS. Con AWS Organizations, puede crear de manera programática nuevas cuentas de AWS y asignar recursos, agrupar cuentas para organizar sus flujos de trabajo, aplicar políticas a cuentas o grupos para el control y simplificar la facturación mediante un único método de pago para todas sus cuentas.</p>
+<h2 id="aws-quick-starts">AWS Quick Starts</h2>
+<p>Quick Starts son implementaciones de referencia automatizadas creadas por arquitectos de soluciones de Amazon Web Services (AWS) y socios de AWS. Quick Starts le ayudan a implementar tecnologías conocidas en AWS, con base en prácticas recomendadas de AWS destinadas a lograr seguridad y alta disponibilidad. Estos aceleradores reducen cientos de procedimientos manuales a unos pocos pasos para que pueda crear su entorno de producción en minutos y empezar a usarlo de inmediato.</p>
+<h2 id="aws-landing-zone">AWS Landing Zone</h2>
+<p>AWS Landing Zone es una solución que ayuda a los clientes a configurar un entorno de AWS seguro y para varias cuentas, basado en las prácticas recomendadas de AWS.</p>
+<h1 id="section-2"></h1>
 <h1 id="recursos-extras">Recursos extras</h1>
 <ul>
 <li><a href="https://d1.awsstatic.com/whitepapers/aws-overview.pdf">Aws Overview</a></li>
