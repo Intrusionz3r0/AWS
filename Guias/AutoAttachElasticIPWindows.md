@@ -38,7 +38,7 @@ $instance_id = Invoke-WebRequest http://169.254.169.254/latest/meta-data/instanc
 aws ec2 associate-address --instance-id $instance_id --public-ip $ipaddress
 ```
 
-**Paso 6:** Crearemos una tarea usando la herramienta **Task Scheduler** para que el programar ejecute el script al iniciar Windows.
+**Paso 6:** Crearemos una tarea usando la herramienta **Task Scheduler** para que el programa ejecute el script al iniciar Windows.
 
   ![](https://lh5.googleusercontent.com/p15Us2bm7RvgRsLOXIrbK2ImDXGje2p77144yKk84zdcRmG5lzI4LRB5CfQYGrUXJuqIXuAPUAPQh0HAp69UdgqrNxdwMWkuqqlHoRxq-qfRh-VCqLeKylQDg7-tRtD8-uo_saMt)
 
