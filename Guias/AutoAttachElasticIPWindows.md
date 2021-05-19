@@ -7,6 +7,8 @@
 
 **Paso 2:** Crear unas **Access keys** para poder ejecutar comandos en tu instancia windows utilizando la CLI.
 
+> IAM > Users > [Tu usuario] > Security Credentials > **Create Access Keys**.
+
 
 
 **Paso 3:** Descargar e instalar el siguiente software en tu instancia EC2 **windows**.
