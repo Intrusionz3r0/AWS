@@ -15,6 +15,7 @@
 
 
 > Para verificar que AWSCLIV2 se instalo correctamente puede abrir powershell como **Administrador** y ejecutar el siguiente comado: 
+> 
 > `aws --version`
 
 ![](https://lh6.googleusercontent.com/yaUf5gEXc8DiTizY_UkxsdPx-xiWfgts-tBPohqIi3Wy2z534-FTitPDJzBNCDWWuy5bsYAT1xIkmdsuWDlJ3STYVU0MHGZXq7B09RGIsozhepgosJ6TNidxvfpHZ9joJeVMf3hm)
