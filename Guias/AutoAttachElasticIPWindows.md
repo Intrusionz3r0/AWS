@@ -63,7 +63,7 @@ Si todo se configuro correctamente se le pedirá que ingrese sus credenciales.
 
 **![](https://lh4.googleusercontent.com/FosYPoCQ9RQpuZzU6maYyU8LQAoO1eXgZrdGgo9utX6srpbzgvos6XqATdstCIaPHvxJT7SsbEOBOR9co3BZURdeuy79hfAHFvb842fJVXbPlo5ihZssNmC1_9kCYwBLNWvaxHUU)**
 
-Por último si deseas probar que todo se configuro correctamente puedes detener la instancia y iniciarla.
+Por último si deseas probar que todo se configuro correctamente puedes detener la instancia y iniciarla. Cuando la EIP se asigne ya podrá crear su AMI y configurar su ASG.
 
 
 
