@@ -369,8 +369,8 @@
 <h1 id="global-acelerator">Global Acelerator</h1>
 <p><img src="https://cdn-ssl-devio-img.classmethod.jp/wp-content/uploads/2018/12/aws-global-accelerator-eyecatch.jpeg" alt="enter image description here"></p>
 <p><strong>AWS Global Accelerator</strong> es un servicio de redes que envía el tráfico del usuario a través de la infraestructura de red de Amazon Web Services, lo que mejora hasta en un 60 % el rendimiento del usuario de Internet. Cuando Internet se congestiona, las mejoras de enrutamiento automático de Global Accelerator lo ayudarán a mantener un nivel bajo de pérdida de datos, fluctuación y latencia.</p>
+<h1 id="ciclo-de-vida-de-código.">Ciclo de vida de código.</h1>
 <p><img src="https://d2908q01vomqb2.cloudfront.net/4d134bc072212ace2df385dae143139da74ec0ef/2019/12/19/1n-1024x389.png" alt="Habilitación de la creación e implementación automatizada de código de  mainframe para Instituciones Financieras que utilizan servicios AWS y  soluciones Micro Focus | Blog de Amazon Web Services (AWS)"></p>
-<h1 id="precios-de-aws">Precios de AWS</h1>
 <h2 id="aws-budgets">AWS Budgets</h2>
 <p><strong>AWS Budgets</strong> ofrece la posibilidad de definir presupuestos personalizados que le envíen una alerta cuando los costos o el uso superan el importe presupuestado o si se prevé que lo superen. También puede utilizar el servicio de Presupuestos de AWS para definir los objetivos de uso o cobertura de reservas y recibir alertas cuando el uso disminuya por debajo del umbral definido. <strong>Before</strong></p>
 <h2 id="aws-cost-explorer">AWS Cost Explorer</h2>
@@ -442,7 +442,58 @@
 <p>Quick Starts son implementaciones de referencia automatizadas creadas por arquitectos de soluciones de Amazon Web Services (AWS) y socios de AWS. Quick Starts le ayudan a implementar tecnologías conocidas en AWS, con base en prácticas recomendadas de AWS destinadas a lograr seguridad y alta disponibilidad. Estos aceleradores reducen cientos de procedimientos manuales a unos pocos pasos para que pueda crear su entorno de producción en minutos y empezar a usarlo de inmediato.</p>
 <h2 id="aws-landing-zone">AWS Landing Zone</h2>
 <p>AWS Landing Zone es una solución que ayuda a los clientes a configurar un entorno de AWS seguro y para varias cuentas, basado en las prácticas recomendadas de AWS.</p>
-<h1 id="section-2"></h1>
+<h1 id="aws-artifact">AWS Artifact</h1>
+<p><img src="https://conceptdraw.com/a3130c3/p3/preview/640/pict--aws-artifact-aws-security,-identity-and-compliance-vector-stencils-library" alt="enter image description here"></p>
+<p><strong>AWS Artifact</strong> es el recurso central in situ para información relacionada con conformidad importante para usted. Proporciona acceso bajo demanda a los informes de seguridad y conformidad de AWS y acuerdos online seleccionados.</p>
+<h1 id="modelo-de-responsabilidad-compartida">Modelo de responsabilidad compartida</h1>
+<p><img src="https://d1.awsstatic.com/security-center/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg" alt="enter image description here"><br>
+<a href="https://aws.amazon.com/es/compliance/shared-responsibility-model/">Leer mas acerca de el modelo de responsabilidad compartida.</a></p>
+<h2 id="aws-cloudtrail">Aws CloudTrail</h2>
+<p><img src="https://coralogix.com/wp-content/uploads/2019/03/amazon-cloudtrail-1.png" alt="enter image description here"></p>
+<p><strong>AWS CloudTrail</strong> es un servicio que le permite realizar auditorías de gobernanza, de conformidad, operativas y de riesgo en su cuenta de AWS. Con CloudTrail, puede registrar, monitorear de manera continua y retener la actividad de la cuenta relacionada con acciones en toda su infraestructura de AWS.</p>
+<h2 id="aws-trusted-advisor">AWS Trusted Advisor</h2>
+<p><img src="https://p2zk82o7hr3yb6ge7gzxx4ki-wpengine.netdna-ssl.com/wp-content/uploads/AWS-Trusted-Advisor-4.png" alt="enter image description here"></p>
+<p>AWS Trusted Advisor es una herramienta en línea que le proporciona asesoramiento en tiempo real para ayudarlo a aprovisionar recursos según las prácticas recomendadas de AWS.</p>
+<p><strong>Las comprobaciones de Trusted Advisor ayudan a:</strong></p>
+<ol>
+<li>Cost Optimization</li>
+<li>Performance</li>
+<li>Security</li>
+<li>Fault Tolerance</li>
+<li>Sevice Limits</li>
+</ol>
+<h2 id="aws-inspector">AWS Inspector</h2>
+<p><img src="https://fitdevops.in/wp-content/uploads/Screenshot-from-2020-06-10-21-56-13.png" alt="enter image description here"></p>
+<p><strong>Amazon Inspector</strong> es un servicio automático de evaluación de asuntos de seguridad que ayuda a mejorar el nivel de seguridad y conformidad de las aplicaciones que se implementan en AWS. Amazon Inspector evalúa automáticamente las aplicaciones en busca de exposiciones, vulnerabilidades y desviaciones en relación con las prácticas recomendadas. <strong>(Agente que se instala en un EC2 para realizar una auditoria de seguridad.)</strong></p>
+<h2 id="aws-config">AWS Config</h2>
+<p><img src="https://tutorialslink.com/Article_img/Blog_image/a8017221-832b-4ca8-89c0-cbbede8354e6.jpg" alt="enter image description here"></p>
+<p><strong>AWS Config</strong> es un servicio que permite examinar, auditar y evaluar las configuraciones de sus recursos de AWS. Config monitorea y registra constantemente las configuraciones de sus recursos de AWS y le permite automatizar la evaluación de las configuraciones registradas con respecto a las configuraciones deseadas.</p>
+<h2 id="aws-waf">AWS WAF</h2>
+<p><img src="https://accolade.fi/wp-content/uploads/2017/12/blog-aws_waf.jpg" alt="enter image description here"></p>
+<p><strong>AWS WAF</strong> es un firewall para aplicaciones web que ayuda a proteger sus aplicaciones web o API contra ataques web y bots comunes que pueden afectar la disponibilidad, poner en riesgo la seguridad o consumir demasiados recursos. AWS WAF brinda control sobre cómo el tráfico llega a sus aplicaciones, lo que le permite crear reglas de seguridad que controlan el tráfico de bots bloquean los patrones de ataque comunes, como la inyección de SQL o el scripting entre sitios.</p>
+<h2 id="aws-shield">AWS SHIELD</h2>
+<p><img src="https://awsnewbies.com/wp-content/uploads/2018/09/shield.png" alt="enter image description here"></p>
+<p><strong>AWS Shield</strong> es un servicio de protección contra ataques de denegación de servicio distribuidos (DDoS) que protege las aplicaciones ejecutadas en AWS. AWS Shield proporciona una mitigación en línea automática y una detección siempre activa que minimizan el tiempo de inactividad y la latencia de la aplicación, por lo que no es necesario disponer de AWS Support para beneficiarse de la protección contra DDoS. Existen dos capas de AWS Shield, Standard y Advanced.</p>
+<h2 id="guardduty">GuardDuty</h2>
+<p><img src="https://1.bp.blogspot.com/-V1F46O9CatA/X8kTErmBPcI/AAAAAAAABnI/Cs8VUimdA9gKSD3KZzUkmQvbqLAftYZdQCLcBGAsYHQ/s1000/AmazonGuardDuty-for-featured-image.png" alt="enter image description here"></p>
+<p><strong>Amazon GuardDuty</strong> es un servicio de detección de amenazas que monitorea continuamente para detectar actividades maliciosas y comportamientos no autorizados con el fin de proteger sus datos, cargas de trabajo y cuentas de AWS almacenados en Amazon S3. <strong>(Usa Machine Learning para detectar anomalias y proteger tu cuenta de AWS)</strong></p>
+<h2 id="aws-control-tower">AWS Control Tower</h2>
+<p><img src="https://i.ytimg.com/vi/daLvEb44d5Q/maxresdefault.jpg" alt="enter image description here"></p>
+<p><strong>Control Tower</strong> ofrece la manera más fácil de configurar y controlar un entorno de AWS nuevo, seguro y con varias cuentas, denominado zona de destino. AWS Control Tower crea su zona de destino mediante AWS Organizations, lo que aporta gestión y gobernanza continuos de la cuenta, así como prácticas recomendadas de implementación basadas en la experiencia de AWS al trabajar con miles de clientes cuando se trasladan a la nube.</p>
+<h2 id="security-hub">Security hub</h2>
+<p><img src="https://www.guardicore.com/infectionmonkey/docs/images/usage/integrations/AWS-Security-Hub-logo.png" alt="enter image description here"></p>
+<p><strong>AWS Security Hub</strong> le permite ver de manera integral las alertas de seguridad de alta prioridad y el estado de conformidad en todas las cuentas de AWS. Existe una gama de potentes herramientas de seguridad a su disposición, desde firewalls y protección de puntos de enlace hasta escáneres de vulnerabilidad y cumplimiento.</p>
+<h2 id="athena">Athena</h2>
+<p><img src="https://miro.medium.com/max/4742/1*1q4s_hTU3hlWFlfkNlTokw.png" alt="enter image description here"></p>
+<p><strong>Amazon Athena</strong> es un servicio de consultas interactivo que facilita el análisis de datos en Amazon S3 con SQL estándar. Athena no tiene servidor, de manera que no es necesario administrar infraestructura y solo paga por las consultas que ejecuta.</p>
+<h2 id="macie">Macie</h2>
+<p><img src="https://i.ytimg.com/vi/CenD1dq3xj8/maxresdefault.jpg" alt="enter image description here"></p>
+<p><strong>Amazon Macie</strong> es un servicio de privacidad y seguridad de datos totalmente administrado que utiliza el aprendizaje automático y la correspondencia de patrones para descubrir y proteger sus datos confidenciales en AWS. Macie le permite analizar por medio de Inteligencia artificial  objetos en un S3 que puedan contener información sensible como PII y datos personales.</p>
+<h2 id="secrets-manager">Secrets Manager</h2>
+<p><img src="https://pbs.twimg.com/profile_images/878044521711362048/aX836E1r_400x400.jpg" alt="enter image description here"></p>
+<p><strong>AWS Secrets Manager</strong> le ayuda a proteger los datos confidenciales necesarios para acceder a sus aplicaciones, servicios y recursos de TI. El servicio le permite alternar, administrar y recuperar fácilmente credenciales de bases de datos, claves de API y otros datos confidenciales durante su ciclo de vida. Los usuarios y las aplicaciones recuperan datos confidenciales con una llamada a las API de Secrets Manager, lo que elimina la necesidad de codificar información confidencial en texto sin formato. <strong>(Es de pago a diferencia de Parameter Store)</strong></p>
+<h2 id="parameter-store">Parameter Store</h2>
+<p><strong>Parameter Store</strong> proporciona un almacenamiento seguro y jerárquico para administrar los datos de configuración y los secretos. Puede almacenar datos como contraseñas, cadenas de base de datos, IDs Amazon Machine Image (AMI) y códigos de licencia como valores de parámetros. Puede almacenar valores como texto sin formato o como datos cifrados.</p>
 <h1 id="recursos-extras">Recursos extras</h1>
 <ul>
 <li><a href="https://d1.awsstatic.com/whitepapers/aws-overview.pdf">Aws Overview</a></li>
