@@ -56,7 +56,7 @@ realtime =none                   extsz=4096   blocks=0, rtextents=0
 
 8. Movemos la información de disco a disco.
 ```bash
-sudo rsync -axv /mnt/vol900/ /mnt/vol400/
+[ec2-user@ip-172-31-12-208 ~]$ sudo rsync -axv /mnt/vol900/ /mnt/vol400/
 ```
 Puedes obtener mas información aqui: [RSYNC.](https://ss64.com/bash/rsync.html)
 
