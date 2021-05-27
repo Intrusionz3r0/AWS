@@ -9,7 +9,7 @@
 
  2. Creamos el volumen con el tamaño deseado y lo asociamos a la instancia.
 
- 3. Nos loguemos en la instancia.
+ 3. Nos loguemos.
 
 4. Mostramos los discos asociados.
 ```bash
