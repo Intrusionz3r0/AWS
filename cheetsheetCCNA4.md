@@ -32,7 +32,7 @@ ip nat inside
 ip nat outside
 ```
 
-### NAT DInamico
+### NAT Dinamico
 ```
 R1(config)#ip nat pool NAT-POOL2 202.1.12.1 202.1.12.14 netmask 255.255.255.224
 R1(config)#ip nat inside source list 1 pool NAT-POOL2 overload
