@@ -24,12 +24,18 @@ network 172.16.1.0 0.0.0.X area 0
 
 
 
-### NAT
+### NAT por sobrecarga
 ```bash
 access-list 1 permit [rango-de-red] 0.0.255.255
 ip nat inside source list 1 int [Apunte-a-exterior] overload
 ip nat inside 
 ip nat outside
+```
+
+### NAT DInamico
+```
+R1(config)#ip nat pool NAT-POOL2 202.1.12.1 202.1.12.14 netmask 255.255.255.224
+R1(config)#ip nat inside source list 1 pool NAT-POOL2 overload
 ```
 
 
