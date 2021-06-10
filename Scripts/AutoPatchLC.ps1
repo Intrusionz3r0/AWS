@@ -1,5 +1,4 @@
 #Author: Intrusionz3r0
-
 function banner {
 
 	$banner = @()
@@ -39,7 +38,7 @@ aws autoscaling create-launch-configuration --launch-configuration-name $NEWLC -
 Write-Host "[*] Actualizando auto scaling group." -ForegroundColor "yellow"
 aws autoscaling update-auto-scaling-group --auto-scaling-group-name $ASGNAME --launch-configuration-name $NEWLC
 
-Write-Host "[*] Eliminando launch configuration antiguo." -ForegroundColor "yellow"
+Write-Host "[*] Eliminando antiguo launch configuration." -ForegroundColor "yellow"
 aws autoscaling delete-launch-configuration --launch-configuration-name $OLDLC
 
 Write-Host "[*] Proceso Finalizado." -ForegroundColor "yellow"
