@@ -214,7 +214,7 @@ Una política es un objeto de AWS que, cuando se asocia a una identidad o un rec
 * *Las politicas de buckets se aplican a buckets individuales,*
 * Estas politicas son solo a nivel de s3 y solo s3.
 * *Las ACL se aplican a objetos individuales*
-* [!] **Explicit Denied:**  La negación explicita siempre triunfa sobre un permiso.
+* [!] **Explicit Denied:**  La negación explicita (**Deny**) siempre triunfa sobre un **Allow**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDY4MzQ1NzVdfQ==
+eyJoaXN0b3J5IjpbLTM1OTI2NzIyNCwtMTI0NjgzNDU3NV19
 -->
