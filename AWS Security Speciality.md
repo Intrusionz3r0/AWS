@@ -233,7 +233,7 @@ Una política es un objeto de AWS que, cuando se asocia a una identidad o un rec
     {
       "Sid": "Stmt1623650733034",
       "Action": [
-        "s3:ListBucket"
+        "s3:DeleteObject"
       ],
       "Effect": "Allow",
       "Resource": "arn:aws:s3:::examplebucket",
@@ -246,8 +246,8 @@ Una política es un objeto de AWS que, cuando se asocia a una identidad o un rec
   ]
 }
 ```
-***
+**Deny** sobreescribe el **Allow** por lo que el usuario *example-user* no podra ver 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDM2MzE1ODcsLTM1OTI2NzIyNCwtMT
-I0NjgzNDU3NV19
+eyJoaXN0b3J5IjpbMTI4ODM1NjM3LC0zNTkyNjcyMjQsLTEyND
+Y4MzQ1NzVdfQ==
 -->
