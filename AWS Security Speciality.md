@@ -215,6 +215,39 @@ Una política es un objeto de AWS que, cuando se asocia a una identidad o un rec
 * Estas politicas son solo a nivel de s3 y solo s3.
 * *Las ACL se aplican a objetos individuales*
 * [!] **Explicit Denied:**  La negación explicita (**Deny**) siempre triunfa sobre un **Allow**.
+
+
+**Ejemplo:** 
+```json
+{
+  "Id": "Policy1623650735369",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1623650632250",
+      "Action": "s3:*",
+      "Effect": "Deny",
+      "Resource": "arn:aws:s3:::example-user",
+      "Principal": "*"
+    },
+    {
+      "Sid": "Stmt1623650733034",
+      "Action": [
+        "s3:ListBucket"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::examplebucket",
+      "Principal": {
+        "AWS": [
+          "arn:aws:iam::2631187776633:user/example-user"
+        ]
+      }
+    }
+  ]
+}
+```
+***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTI2NzIyNCwtMTI0NjgzNDU3NV19
+eyJoaXN0b3J5IjpbLTEzNDM2MzE1ODcsLTM1OTI2NzIyNCwtMT
+I0NjgzNDU3NV19
 -->
