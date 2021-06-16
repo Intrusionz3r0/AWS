@@ -327,7 +327,7 @@ Cuando vaya al examen y le pidan que analice unas políticas, comience con la me
 
 ## Replicación entre regiones
 
-
+Con la replicación es posible copiar objetos entre buckets de Amazon S3 de forma automática y asincrónica. Los buckets que estén configurados para la replicación de objetos pueden pertenecer a la misma cuenta de AWS o a cuentas diferentes. El objeto se puede replicar en un solo bucket de destino o en varios. Los buckets de destino pueden estar en diferentes regiones de AWS o dentro de la misma región que el bucket de origen.
 
 ### Requisitos
 
@@ -337,9 +337,9 @@ Cuando vaya al examen y le pidan que analice unas políticas, comience con la me
 * **[!]** Si el propietario del bucket tambien es propietario del objeto, el propietario del bucket tiene todos los permisos para replicar el objeto, si no, el propietario del objeto debe otorgar permisos al propietario del bucket de **Read** y **READ_ACP** via ACL object.
 * El rol de IAM debe tener los permisos suficientes para replicar los objetos en el bucket destino.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEzNzQ1NDYxLDE1Mzc0NzYxNzEsMTY2Mz
-Y1MTkwNiwtNjg3Mzc2NTMzLC0xNDU5MTQyNTMsMzU4NDk5MTc4
-LDE4NDkxMjIyNjMsMTg0NjA1MjYzMywtNTQzMzYyMzQxLC00Mz
-MzMTk1NTgsMTkxMjU0MzAyOSwtMzU5MjY3MjI0LC0xMjQ2ODM0
-NTc1XX0=
+eyJoaXN0b3J5IjpbLTYwNTU0NjQ1LDQxMzc0NTQ2MSwxNTM3ND
+c2MTcxLDE2NjM2NTE5MDYsLTY4NzM3NjUzMywtMTQ1OTE0MjUz
+LDM1ODQ5OTE3OCwxODQ5MTIyMjYzLDE4NDYwNTI2MzMsLTU0Mz
+M2MjM0MSwtNDMzMzE5NTU4LDE5MTI1NDMwMjksLTM1OTI2NzIy
+NCwtMTI0NjgzNDU3NV19
 -->
