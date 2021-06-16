@@ -260,8 +260,11 @@ Una política es un objeto de AWS que, cuando se asocia a una identidad o un rec
 * Las políticas de bucket solo se pueden aplicar a nivel de Bucket, 
 
 * S3 ACL se puede aplicar a archivos individuales (objetos)
+
+### Casos de uso
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTY0Njg0MjksMTg0NjA1MjYzMywtNT
-QzMzYyMzQxLC00MzMzMTk1NTgsMTkxMjU0MzAyOSwtMzU5MjY3
-MjI0LC0xMjQ2ODM0NTc1XX0=
+eyJoaXN0b3J5IjpbLTQ0NDcyNTUyOSwxODQ2MDUyNjMzLC01ND
+MzNjIzNDEsLTQzMzMxOTU1OCwxOTEyNTQzMDI5LC0zNTkyNjcy
+MjQsLTEyNDY4MzQ1NzVdfQ==
 -->
