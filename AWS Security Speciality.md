@@ -247,7 +247,15 @@ Una política es un objeto de AWS que, cuando se asocia a una identidad o un rec
 }
 ```
 **Deny** sobrescribe el **Allow** por lo que el usuario *example-user* no podrá acceder a el bucket.
+
+
+
+
+## ACL S3
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzM2MjM0MSwtNDMzMzE5NTU4LDE5MT
-I1NDMwMjksLTM1OTI2NzIyNCwtMTI0NjgzNDU3NV19
+eyJoaXN0b3J5IjpbMTg0NjA1MjYzMywtNTQzMzYyMzQxLC00Mz
+MzMTk1NTgsMTkxMjU0MzAyOSwtMzU5MjY3MjI0LC0xMjQ2ODM0
+NTc1XX0=
 -->
