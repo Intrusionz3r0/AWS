@@ -332,10 +332,11 @@ Cuando vaya al examen y le pidan que analice unas políticas, comience con la me
 ### Requisitos
 
 * El bucket de origen y destino deben tener el control de versiones activado.
-* El depo
+* El bucket de origen y destino deben estar en diferentes regiones de aws.
+* S3 debe tener permisos para replicar objetos desde el bucket origen a el bucket destino
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcyNDY5OTMxLC02ODczNzY1MzMsLTE0NT
-kxNDI1MywzNTg0OTkxNzgsMTg0OTEyMjI2MywxODQ2MDUyNjMz
-LC01NDMzNjIzNDEsLTQzMzMxOTU1OCwxOTEyNTQzMDI5LC0zNT
-kyNjcyMjQsLTEyNDY4MzQ1NzVdfQ==
+eyJoaXN0b3J5IjpbMjA5NDQ4MjMzOCwtNjg3Mzc2NTMzLC0xND
+U5MTQyNTMsMzU4NDk5MTc4LDE4NDkxMjIyNjMsMTg0NjA1MjYz
+MywtNTQzMzYyMzQxLC00MzMzMTk1NTgsMTkxMjU0MzAyOSwtMz
+U5MjY3MjI0LC0xMjQ2ODM0NTc1XX0=
 -->
