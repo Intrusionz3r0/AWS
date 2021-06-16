@@ -360,11 +360,13 @@ Si ingresas al bucket de origen y elimina un objeto a este se le agrega un marca
 * Objetos a los que el propietario del bucket no tiene permisos, por lo que el propietario del objeto debe otorgar permisos usando ACL
 * Objetos creados con cifrado del lado del servidor mediante claves de cifrado proporcionadas por el cliente (SSE-C)
 * No replica eliminación de versiones, esto para evitar que personas maliciosas hagan esta accion con el fin de perjudicar.
+
+**Nota:** Si un objeto tiene el marcador de eliminación y usted quiere restaurar el objeto solo entre y elimine el marcador de eliminación.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MjYyNjI2MSwxMDA3MDI1NjU5LDE1Mz
-UwMzMyOTMsNDE4ODA5MzE5LDQ5ODczOTY4MywxNjczNTkyNDg3
-LDQxMzc0NTQ2MSwxNTM3NDc2MTcxLDE2NjM2NTE5MDYsLTY4Nz
-M3NjUzMywtMTQ1OTE0MjUzLDM1ODQ5OTE3OCwxODQ5MTIyMjYz
-LDE4NDYwNTI2MzMsLTU0MzM2MjM0MSwtNDMzMzE5NTU4LDE5MT
-I1NDMwMjksLTM1OTI2NzIyNCwtMTI0NjgzNDU3NV19
+eyJoaXN0b3J5IjpbLTEzNTEzNzk3OTUsMTAwNzAyNTY1OSwxNT
+M1MDMzMjkzLDQxODgwOTMxOSw0OTg3Mzk2ODMsMTY3MzU5MjQ4
+Nyw0MTM3NDU0NjEsMTUzNzQ3NjE3MSwxNjYzNjUxOTA2LC02OD
+czNzY1MzMsLTE0NTkxNDI1MywzNTg0OTkxNzgsMTg0OTEyMjI2
+MywxODQ2MDUyNjMzLC01NDMzNjIzNDEsLTQzMzMxOTU1OCwxOT
+EyNTQzMDI5LC0zNTkyNjcyMjQsLTEyNDY4MzQ1NzVdfQ==
 -->
