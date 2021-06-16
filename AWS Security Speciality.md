@@ -346,6 +346,7 @@ Con la replicación es posible copiar objetos entre buckets de Amazon S3 de form
 -   Los objetos cifrados bajo claves administradas de Amazon S3 (SSE-S3) o claves maestras del cliente (CMK) almacenadas en AWS Key Management Service (SSE-KMS).
 - Metadatos, tags y ACL'S.
 - Solo los objetos en el bucket de origen para los que el propietario del bucket tiene permisos para leer objetos y listas de control de acceso (ACL).
+- Marcadores de eliminación
 
 ### Cómo afectan las operaciones de eliminación a la replicación
 
@@ -363,10 +364,10 @@ Si ingresas al bucket de origen y elimina un objeto a este se le agrega un marca
 
 **Nota:** Si un objeto tiene el marcador de eliminación y usted quiere restaurar el objeto solo entre y elimine el marcador de eliminación.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTEzNzk3OTUsMTAwNzAyNTY1OSwxNT
-M1MDMzMjkzLDQxODgwOTMxOSw0OTg3Mzk2ODMsMTY3MzU5MjQ4
-Nyw0MTM3NDU0NjEsMTUzNzQ3NjE3MSwxNjYzNjUxOTA2LC02OD
-czNzY1MzMsLTE0NTkxNDI1MywzNTg0OTkxNzgsMTg0OTEyMjI2
-MywxODQ2MDUyNjMzLC01NDMzNjIzNDEsLTQzMzMxOTU1OCwxOT
-EyNTQzMDI5LC0zNTkyNjcyMjQsLTEyNDY4MzQ1NzVdfQ==
+eyJoaXN0b3J5IjpbMTA4NzM4NzAzMiwxMDA3MDI1NjU5LDE1Mz
+UwMzMyOTMsNDE4ODA5MzE5LDQ5ODczOTY4MywxNjczNTkyNDg3
+LDQxMzc0NTQ2MSwxNTM3NDc2MTcxLDE2NjM2NTE5MDYsLTY4Nz
+M3NjUzMywtMTQ1OTE0MjUzLDM1ODQ5OTE3OCwxODQ5MTIyMjYz
+LDE4NDYwNTI2MzMsLTU0MzM2MjM0MSwtNDMzMzE5NTU4LDE5MT
+I1NDMwMjksLTM1OTI2NzIyNCwtMTI0NjgzNDU3NV19
 -->
