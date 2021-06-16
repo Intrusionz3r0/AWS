@@ -281,7 +281,7 @@ Esto va a depender desde donde accedes al objecto, si estas autenticado e intent
 ![](https://lh5.googleusercontent.com/mZtE2tOinnBVG7ciSIVIg9DRZubAQAa3cJqF7NZeyIiM34xtYiQFiXjJMQpqdv55NwAHz-zVN09lgU4o3dtgVMK52P6pcDJi_cF234u2nEYL_yYWRQX1AAmL3hVgGpLsKIpDNTM5)
 
 **Explicación del diagrama**
-Cuando vaya al examen y le pidan que analice unas políticas comience con la mentalidad de que todo se va a negar **(paso 1)**, esto por el principio de mínimo privilegio, luego evalué las políticas **(Paso 2)**, si encuentra una negación explicita **(Paso 3)** entonces el resultado será **Deny**, si no hay negación explicita y hay un permitido **(Paso 4)** el resultado sera Allow pero si no hay ninguna negación explicita y tampoco una política Allow **(Paso 5)** el resultado será **Deny**.
+Cuando vaya al examen y le pidan que analice unas políticas, comience con la mentalidad de que todo se va a negar , esto por el principio de mínimo privilegio. Luego evalué las políticas , si encuentra una negación explicita entonces el resultado será **Deny**, si no hay negación explicita y hay uno o más  **Allow el resultado sera **Allow** pero si no hay ninguna negación explicita y tampoco una política Allow el resultado será **Deny**.
 
 
 * La decisión del principio de mínimo privilegio será negar.
@@ -290,7 +290,7 @@ Cuando vaya al examen y le pidan que analice unas políticas comience con la men
 * Si no se especifica un **Deny** y uno o mas objetos tienen un **Allow** el resultado será permitir, 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwODMwMzMxLDM1ODQ5OTE3OCwxODQ5MT
+eyJoaXN0b3J5IjpbMTM3MDIwNzM1LDM1ODQ5OTE3OCwxODQ5MT
 IyMjYzLDE4NDYwNTI2MzMsLTU0MzM2MjM0MSwtNDMzMzE5NTU4
 LDE5MTI1NDMwMjksLTM1OTI2NzIyNCwtMTI0NjgzNDU3NV19
 -->
