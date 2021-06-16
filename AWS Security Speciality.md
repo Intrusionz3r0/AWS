@@ -273,11 +273,11 @@ Una política es un objeto de AWS que, cuando se asocia a una identidad o un rec
 
 Recuerda que **Explicit Denied** siempre triunfa sobre **allow** pero ¿que pasaría si haces que un objeto sea publico para cualquiera y dentro de las políticas de IAM a tu usuario le niegas el acceso?
 
-Esto va a depender desde donde accedes al objecto, si estas autenticado e intentas acceder al objeto utilizando la URL del objeto en este caso puede ser algo como: [https://awssecuritycoursecg.s3.amazonaws.com/cloudendure.log](https://bucketchidoexample.s3.amazonaws.com/cloudendure.log) podras ver que si podras acceder y te preguntaras pero como si sabemos que **Explicit Denied** siempre gana sobre **Allow** esto se debe a que si utilizamos el UR
+Esto va a depender desde donde accedes al objecto, si estas autenticado e intentas acceder al objeto utilizando la URL del objeto en este caso puede ser algo como: [https://awssecuritycoursecg.s3.amazonaws.com/cloudendure.log](https://bucketchidoexample.s3.amazonaws.com/cloudendure.log) podras ver que si podras acceder y te preguntaras; ¿pero como si sabemos que **Explicit Denied** siempre gana sobre **Allow**? esto se debe a que si utilizamos el URL de arriba accederemos sin ningún método de autenticacion pero si lo hacemos utilizando el botón de abrir de la interfaz de S3 obtendremos un access denied
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMxOTgxMDYzLDE4NDYwNTI2MzMsLTU0Mz
-M2MjM0MSwtNDMzMzE5NTU4LDE5MTI1NDMwMjksLTM1OTI2NzIy
-NCwtMTI0NjgzNDU3NV19
+eyJoaXN0b3J5IjpbLTEzNDM4NjU2NDUsMTg0NjA1MjYzMywtNT
+QzMzYyMzQxLC00MzMzMTk1NTgsMTkxMjU0MzAyOSwtMzU5MjY3
+MjI0LC0xMjQ2ODM0NTc1XX0=
 -->
