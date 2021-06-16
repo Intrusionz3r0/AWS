@@ -279,12 +279,16 @@ Esto va a depender desde donde accedes al objecto, si estas autenticado e intent
 * **[!]** **IMPORTANTE**
 ![](https://lh5.googleusercontent.com/mZtE2tOinnBVG7ciSIVIg9DRZubAQAa3cJqF7NZeyIiM34xtYiQFiXjJMQpqdv55NwAHz-zVN09lgU4o3dtgVMK52P6pcDJi_cF234u2nEYL_yYWRQX1AAmL3hVgGpLsKIpDNTM5)
 
+Cuando vaya al examen empiece con la mentalidad de que todo se va a negar 
+
+
 * La decisión del principio de mínimo privilegio será negar.
 * La negación explicita siempre triunfa sobre un permiso.
-* Si no se especifica un permiso la 
+* Si no se especifica un permiso el resultado será **Deny**
+* Si no se especifica un **Deny** y uno o mas objetos tienen un **Allow** el resultado será permitir.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk0NjcxNDA2LDE4NDkxMjIyNjMsMTg0Nj
+eyJoaXN0b3J5IjpbOTAzNTU3NDg0LDE4NDkxMjIyNjMsMTg0Nj
 A1MjYzMywtNTQzMzYyMzQxLC00MzMzMTk1NTgsMTkxMjU0MzAy
 OSwtMzU5MjY3MjI0LC0xMjQ2ODM0NTc1XX0=
 -->
