@@ -253,9 +253,11 @@ Una política es un objeto de AWS que, cuando se asocia a una identidad o un rec
 
 ## ACL S3
 
+Las ACL de S3 son un mecanismo de control de acceso heredado anterior a IAM.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NjA1MjYzMywtNTQzMzYyMzQxLC00Mz
-MzMTk1NTgsMTkxMjU0MzAyOSwtMzU5MjY3MjI0LC0xMjQ2ODM0
-NTc1XX0=
+eyJoaXN0b3J5IjpbNzk5NjQ4NjYyLDE4NDYwNTI2MzMsLTU0Mz
+M2MjM0MSwtNDMzMzE5NTU4LDE5MTI1NDMwMjksLTM1OTI2NzIy
+NCwtMTI0NjgzNDU3NV19
 -->
