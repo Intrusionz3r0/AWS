@@ -322,9 +322,20 @@ Cuando vaya al examen y le pidan que analice unas políticas, comience con la me
     ]
 }
 ```
+
+
+
+## Replicación entre regiones
+
+
+
+### Requisitos
+
+* El bucket de origen y destino deben tener el control de versiones activado.
+* El depo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NzM3NjUzMywtMTQ1OTE0MjUzLDM1OD
-Q5OTE3OCwxODQ5MTIyMjYzLDE4NDYwNTI2MzMsLTU0MzM2MjM0
-MSwtNDMzMzE5NTU4LDE5MTI1NDMwMjksLTM1OTI2NzIyNCwtMT
-I0NjgzNDU3NV19
+eyJoaXN0b3J5IjpbMjcyNDY5OTMxLC02ODczNzY1MzMsLTE0NT
+kxNDI1MywzNTg0OTkxNzgsMTg0OTEyMjI2MywxODQ2MDUyNjMz
+LC01NDMzNjIzNDEsLTQzMzMxOTU1OCwxOTEyNTQzMDI5LC0zNT
+kyNjcyMjQsLTEyNDY4MzQ1NzVdfQ==
 -->
