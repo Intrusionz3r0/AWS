@@ -269,7 +269,7 @@ Una política es un objeto de AWS que, cuando se asocia a una identidad o un rec
 
 
 
-### Consejos
+### Nota
 
 Recuerda que **Explicit Denied** siempre triunfa sobre **allow** pero ¿que pasaría si haces que un objeto sea publico para cualquiera y dentro de las políticas de IAM a tu usuario le niegas el acceso?
 
@@ -277,12 +277,13 @@ Esto va a depender desde donde accedes al objecto, si estas autenticado e intent
 
 
 
-* **[!]** **IMPORTANTE**
+ **[!]** **IMPORTANTE**
 ![](https://lh5.googleusercontent.com/mZtE2tOinnBVG7ciSIVIg9DRZubAQAa3cJqF7NZeyIiM34xtYiQFiXjJMQpqdv55NwAHz-zVN09lgU4o3dtgVMK52P6pcDJi_cF234u2nEYL_yYWRQX1AAmL3hVgGpLsKIpDNTM5)
 
 **Explicación del diagrama**
-Cuando vaya al examen y le pidan que analice unas políticas, comience con la mentalidad de que todo se va a negar , esto por el principio de mínimo privilegio. Luego evalué las políticas , si encuentra una negación explicita entonces el resultado será **Deny**, si no hay negación explicita y hay uno o más  **Allow el resultado sera **Allow** pero si no hay ninguna negación explicita y tampoco una política Allow el resultado será **Deny**.
+Cuando vaya al examen y le pidan que analice unas políticas, comience con la mentalidad de que todo se va a negar , esto por el principio de mínimo privilegio. Luego evalué las políticas , si encuentra una negación explicita entonces el resultado será **Deny**, si no hay negación explicita y hay uno o más  Allow el resultado sera **Allow** pero si no hay ninguna negación explicita y tampoco una política Allow el resultado será **Deny**.
 
+### Recuerda:
 
 * La decisión del principio de mínimo privilegio será negar.
 * La negación explicita siempre triunfa sobre un permiso.
@@ -290,7 +291,8 @@ Cuando vaya al examen y le pidan que analice unas políticas, comience con la me
 * Si no se especifica un **Deny** y uno o mas objetos tienen un **Allow** el resultado será permitir, 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MDIwNzM1LDM1ODQ5OTE3OCwxODQ5MT
-IyMjYzLDE4NDYwNTI2MzMsLTU0MzM2MjM0MSwtNDMzMzE5NTU4
-LDE5MTI1NDMwMjksLTM1OTI2NzIyNCwtMTI0NjgzNDU3NV19
+eyJoaXN0b3J5IjpbLTE0NTkxNDI1MywzNTg0OTkxNzgsMTg0OT
+EyMjI2MywxODQ2MDUyNjMzLC01NDMzNjIzNDEsLTQzMzMxOTU1
+OCwxOTEyNTQzMDI5LC0zNTkyNjcyMjQsLTEyNDY4MzQ1NzVdfQ
+==
 -->
