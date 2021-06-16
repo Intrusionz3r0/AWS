@@ -356,12 +356,12 @@ Si ingresas al bucket de origen y elimina un objeto a este se le agrega un marca
 
 ### Elementos que no se replican
 
-
+* Objetos a los que el propietario del bucket no tiene permisos, por lo que el propietario del objeto debe otorgar p
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNzAyNTY1OSwxNTM1MDMzMjkzLDQxOD
-gwOTMxOSw0OTg3Mzk2ODMsMTY3MzU5MjQ4Nyw0MTM3NDU0NjEs
-MTUzNzQ3NjE3MSwxNjYzNjUxOTA2LC02ODczNzY1MzMsLTE0NT
-kxNDI1MywzNTg0OTkxNzgsMTg0OTEyMjI2MywxODQ2MDUyNjMz
-LC01NDMzNjIzNDEsLTQzMzMxOTU1OCwxOTEyNTQzMDI5LC0zNT
-kyNjcyMjQsLTEyNDY4MzQ1NzVdfQ==
+eyJoaXN0b3J5IjpbNDkyNjE3MjYzLDEwMDcwMjU2NTksMTUzNT
+AzMzI5Myw0MTg4MDkzMTksNDk4NzM5NjgzLDE2NzM1OTI0ODcs
+NDEzNzQ1NDYxLDE1Mzc0NzYxNzEsMTY2MzY1MTkwNiwtNjg3Mz
+c2NTMzLC0xNDU5MTQyNTMsMzU4NDk5MTc4LDE4NDkxMjIyNjMs
+MTg0NjA1MjYzMywtNTQzMzYyMzQxLC00MzMzMTk1NTgsMTkxMj
+U0MzAyOSwtMzU5MjY3MjI0LC0xMjQ2ODM0NTc1XX0=
 -->
