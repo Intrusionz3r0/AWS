@@ -352,8 +352,13 @@ Con la replicación es posible copiar objetos entre buckets de Amazon S3 de form
 Si ingresas al bucket de origen y elimina un objeto a este se le agrega un marcador de eliminación, este marcador de eliminación se replica en el bucket destino.
 
 **Nota:** todas las versiones se conservan en ambos
+
+
+### Elementos que no se replican
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMjQ5NTQzNCwxNTM1MDMzMjkzLDQxOD
+eyJoaXN0b3J5IjpbMTAwNzAyNTY1OSwxNTM1MDMzMjkzLDQxOD
 gwOTMxOSw0OTg3Mzk2ODMsMTY3MzU5MjQ4Nyw0MTM3NDU0NjEs
 MTUzNzQ3NjE3MSwxNjYzNjUxOTA2LC02ODczNzY1MzMsLTE0NT
 kxNDI1MywzNTg0OTkxNzgsMTg0OTEyMjI2MywxODQ2MDUyNjMz
