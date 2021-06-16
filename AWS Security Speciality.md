@@ -292,10 +292,39 @@ Cuando vaya al examen y le pidan que analice unas políticas, comience con la me
 
 
 
-##  Forzar encriptación 
+##  Forzar cifrado SSL mediante S3
+
+```json
+{"Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "*"
+            },
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::yourbucketnamehere/*"
+        },
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Deny",
+            "Principal": {
+                "AWS": "*"
+            },
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::yourbucketnamehere/*",
+            "Condition":{
+                "Bool":
+                { "aws:SecureTransport": false } 
+            } 
+        } 
+    ]
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkwODA5NzA0LC0xNDU5MTQyNTMsMzU4ND
-k5MTc4LDE4NDkxMjIyNjMsMTg0NjA1MjYzMywtNTQzMzYyMzQx
-LC00MzMzMTk1NTgsMTkxMjU0MzAyOSwtMzU5MjY3MjI0LC0xMj
-Q2ODM0NTc1XX0=
+eyJoaXN0b3J5IjpbLTY4NzM3NjUzMywtMTQ1OTE0MjUzLDM1OD
+Q5OTE3OCwxODQ5MTIyMjYzLDE4NDYwNTI2MzMsLTU0MzM2MjM0
+MSwtNDMzMzE5NTU4LDE5MTI1NDMwMjksLTM1OTI2NzIyNCwtMT
+I0NjgzNDU3NV19
 -->
