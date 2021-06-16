@@ -339,18 +339,18 @@ Con la replicación es posible copiar objetos entre buckets de Amazon S3 de form
 * El rol de IAM debe tener los permisos suficientes para replicar los objetos en el bucket destino.
 
 
-¡
+**¿Que se replica?**
 
 -   Objetos creados después de añadir una configuración de replicación.
-    
 -   Objetos sin cifrar.
-    
--   Los objetos cifrados en reposo bajo claves administradas de Amazon S3 (SSE-S3) o claves maestras del cliente (CMK) almacenadas en AWS Key Management Service (SSE-KMS).
+-   Los objetos cifrados bajo claves administradas de Amazon S3 (SSE-S3) o claves maestras del cliente (CMK) almacenadas en AWS Key Management Service (SSE-KMS).
+- Metadatos, tags y ACL'S.
+- Solo los objetos en el bucket de origen para los que el propietario del bucket tiene permisos para leer objetos y listas de control de acceso (ACL).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzMjY3ODk1LDQxODgwOTMxOSw0OTg3Mz
-k2ODMsMTY3MzU5MjQ4Nyw0MTM3NDU0NjEsMTUzNzQ3NjE3MSwx
-NjYzNjUxOTA2LC02ODczNzY1MzMsLTE0NTkxNDI1MywzNTg0OT
-kxNzgsMTg0OTEyMjI2MywxODQ2MDUyNjMzLC01NDMzNjIzNDEs
-LTQzMzMxOTU1OCwxOTEyNTQzMDI5LC0zNTkyNjcyMjQsLTEyND
-Y4MzQ1NzVdfQ==
+eyJoaXN0b3J5IjpbMTUzNTAzMzI5Myw0MTg4MDkzMTksNDk4Nz
+M5NjgzLDE2NzM1OTI0ODcsNDEzNzQ1NDYxLDE1Mzc0NzYxNzEs
+MTY2MzY1MTkwNiwtNjg3Mzc2NTMzLC0xNDU5MTQyNTMsMzU4ND
+k5MTc4LDE4NDkxMjIyNjMsMTg0NjA1MjYzMywtNTQzMzYyMzQx
+LC00MzMzMTk1NTgsMTkxMjU0MzAyOSwtMzU5MjY3MjI0LC0xMj
+Q2ODM0NTc1XX0=
 -->
