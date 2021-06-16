@@ -276,8 +276,13 @@ Recuerda que **Explicit Denied** siempre triunfa sobre **allow** pero ¿que pasa
 Esto va a depender desde donde accedes al objecto, si estas autenticado e intentas acceder al objeto utilizando la URL del objeto en este caso puede ser algo como: [https://awssecuritycoursecg.s3.amazonaws.com/cloudendure.log](https://bucketchidoexample.s3.amazonaws.com/cloudendure.log) podras ver que si podras acceder y te preguntaras; ¿pero como si sabemos que **Explicit Denied** siempre gana sobre **Allow**? esto se debe a que si utilizamos el URL de arriba accederemos sin ningún método de autenticacion pero si lo hacemos utilizando el botón de **open** de la interfaz de S3 obtendremos un access denied y esto se debe a que estamos autenticados.
 
 
+* **[!]** **IMPORTANTE**
+![](https://lh5.googleusercontent.com/mZtE2tOinnBVG7ciSIVIg9DRZubAQAa3cJqF7NZeyIiM34xtYiQFiXjJMQpqdv55NwAHz-zVN09lgU4o3dtgVMK52P6pcDJi_cF234u2nEYL_yYWRQX1AAmL3hVgGpLsKIpDNTM5)
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0OTEyMjI2MywxODQ2MDUyNjMzLC01ND
-MzNjIzNDEsLTQzMzMxOTU1OCwxOTEyNTQzMDI5LC0zNTkyNjcy
-MjQsLTEyNDY4MzQ1NzVdfQ==
+eyJoaXN0b3J5IjpbLTE3Mzg5MzA4NjYsMTg0OTEyMjI2MywxOD
+Q2MDUyNjMzLC01NDMzNjIzNDEsLTQzMzMxOTU1OCwxOTEyNTQz
+MDI5LC0zNTkyNjcyMjQsLTEyNDY4MzQ1NzVdfQ==
 -->
