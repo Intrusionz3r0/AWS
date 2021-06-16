@@ -359,11 +359,12 @@ Si ingresas al bucket de origen y elimina un objeto a este se le agrega un marca
 *   Los objetos ya existentes antes de añadir la configuración de replicación al bucket. En otras palabras, Amazon S3 no replica los objetos retroactivamente.
 * Objetos a los que el propietario del bucket no tiene permisos, por lo que el propietario del objeto debe otorgar permisos usando ACL
 * Objetos creados con cifrado del lado del servidor mediante claves de cifrado proporcionadas por el cliente (SSE-C)
+* No replica eliminación de versiones, esto para evitar que personas maliciosas hagan esta accion con el fin de perjudicar.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY2MjU0ODQzLDEwMDcwMjU2NTksMTUzNT
-AzMzI5Myw0MTg4MDkzMTksNDk4NzM5NjgzLDE2NzM1OTI0ODcs
-NDEzNzQ1NDYxLDE1Mzc0NzYxNzEsMTY2MzY1MTkwNiwtNjg3Mz
-c2NTMzLC0xNDU5MTQyNTMsMzU4NDk5MTc4LDE4NDkxMjIyNjMs
-MTg0NjA1MjYzMywtNTQzMzYyMzQxLC00MzMzMTk1NTgsMTkxMj
-U0MzAyOSwtMzU5MjY3MjI0LC0xMjQ2ODM0NTc1XX0=
+eyJoaXN0b3J5IjpbMTU2MjYyNjI2MSwxMDA3MDI1NjU5LDE1Mz
+UwMzMyOTMsNDE4ODA5MzE5LDQ5ODczOTY4MywxNjczNTkyNDg3
+LDQxMzc0NTQ2MSwxNTM3NDc2MTcxLDE2NjM2NTE5MDYsLTY4Nz
+M3NjUzMywtMTQ1OTE0MjUzLDM1ODQ5OTE3OCwxODQ5MTIyMjYz
+LDE4NDYwNTI2MzMsLTU0MzM2MjM0MSwtNDMzMzE5NTU4LDE5MT
+I1NDMwMjksLTM1OTI2NzIyNCwtMTI0NjgzNDU3NV19
 -->
