@@ -279,10 +279,12 @@ Esto va a depender desde donde accedes al objecto, si estas autenticado e intent
 * **[!]** **IMPORTANTE**
 ![](https://lh5.googleusercontent.com/mZtE2tOinnBVG7ciSIVIg9DRZubAQAa3cJqF7NZeyIiM34xtYiQFiXjJMQpqdv55NwAHz-zVN09lgU4o3dtgVMK52P6pcDJi_cF234u2nEYL_yYWRQX1AAmL3hVgGpLsKIpDNTM5)
 
-
+* La decisión del principio de mínimo privilegio será negar.
+* La negación explicita siempre triunfa sobre un permiso.
+* Si no se especifica un permiso la 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzg5MzA4NjYsMTg0OTEyMjI2MywxOD
-Q2MDUyNjMzLC01NDMzNjIzNDEsLTQzMzMxOTU1OCwxOTEyNTQz
-MDI5LC0zNTkyNjcyMjQsLTEyNDY4MzQ1NzVdfQ==
+eyJoaXN0b3J5IjpbNzk0NjcxNDA2LDE4NDkxMjIyNjMsMTg0Nj
+A1MjYzMywtNTQzMzYyMzQxLC00MzMzMTk1NTgsMTkxMjU0MzAy
+OSwtMzU5MjY3MjI0LC0xMjQ2ODM0NTc1XX0=
 -->
