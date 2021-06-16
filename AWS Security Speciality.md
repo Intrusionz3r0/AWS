@@ -290,9 +290,12 @@ Cuando vaya al examen y le pidan que analice unas políticas, comience con la me
 * Si no se especifica un permiso el resultado será **Deny**
 * Si no se especifica un **Deny** y uno o mas objetos tienen un **Allow** el resultado será permitir, 
 
+
+
+##  Forzar encriptación 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTkxNDI1MywzNTg0OTkxNzgsMTg0OT
-EyMjI2MywxODQ2MDUyNjMzLC01NDMzNjIzNDEsLTQzMzMxOTU1
-OCwxOTEyNTQzMDI5LC0zNTkyNjcyMjQsLTEyNDY4MzQ1NzVdfQ
-==
+eyJoaXN0b3J5IjpbNTkwODA5NzA0LC0xNDU5MTQyNTMsMzU4ND
+k5MTc4LDE4NDkxMjIyNjMsMTg0NjA1MjYzMywtNTQzMzYyMzQx
+LC00MzMzMTk1NTgsMTkxMjU0MzAyOSwtMzU5MjY3MjI0LC0xMj
+Q2ODM0NTc1XX0=
 -->
