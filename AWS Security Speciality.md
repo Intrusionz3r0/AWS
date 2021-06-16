@@ -253,12 +253,15 @@ Una política es un objeto de AWS que, cuando se asocia a una identidad o un rec
 
 ## ACL S3
 
-Las ACL de S3 son un mecanismo de control de acceso heredado anterior a IAM.
+* Las ACL de S3 son un mecanismo de control de acceso heredado anterior a IAM.
 
-AWS recomienda usar  las políticas de IAM y las políticas de S3.
-Sin embargo, si necesita aplicar políticas sobre el objeto por sí mismo, utilice las ACL de S3.
+* AWS recomienda usar  las políticas de IAM y las políticas de Bucket. Sin embargo, si necesita aplicar políticas sobre el objeto por sí mismo, utilice las ACL de S3.
+
+* Las políticas de bucket solo se pueden aplicar a nivel de Bucket, 
+
+* S3 ACL se puede aplicar a archivos individuales (objetos)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTQ1OTA0OTksMTg0NjA1MjYzMywtNT
+eyJoaXN0b3J5IjpbLTE2NTY0Njg0MjksMTg0NjA1MjYzMywtNT
 QzMzYyMzQxLC00MzMzMTk1NTgsMTkxMjU0MzAyOSwtMzU5MjY3
 MjI0LC0xMjQ2ODM0NTc1XX0=
 -->
