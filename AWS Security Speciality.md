@@ -266,8 +266,16 @@ Una política es un objeto de AWS que, cuando se asocia a una identidad o un rec
 * si necesita permisos detallados sobre objetos individuales (archivos) dentro de S3
 
 * Las políticas de bucket están limitadas a 20 kb de tamaño, así que considere usar s3 ACLS si encuentra que su política de depósito crece demasiado.
+
+
+
+### Consejos
+
+Recuerda que 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyNjg5Mzc1LDE4NDYwNTI2MzMsLTU0Mz
-M2MjM0MSwtNDMzMzE5NTU4LDE5MTI1NDMwMjksLTM1OTI2NzIy
-NCwtMTI0NjgzNDU3NV19
+eyJoaXN0b3J5IjpbMTAxNzUwOTE1NiwxODQ2MDUyNjMzLC01ND
+MzNjIzNDEsLTQzMzMxOTU1OCwxOTEyNTQzMDI5LC0zNTkyNjcy
+MjQsLTEyNDY4MzQ1NzVdfQ==
 -->
