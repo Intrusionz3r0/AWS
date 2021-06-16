@@ -332,6 +332,7 @@ Con la replicación es posible copiar objetos entre buckets de Amazon S3 de form
 
 * De forma predeterminada, la replicación solo admite la copia de nuevos objetos de Amazon S3 una vez habilitada.
 * Amazon replica objetos encriptados utilizando SSE-S3 o SSE-KMS.
+* Amazon replica los metadatos del objecto,tags,acl's
 
 ### Requisitos
 
@@ -341,9 +342,9 @@ Con la replicación es posible copiar objetos entre buckets de Amazon S3 de form
 * **[!]** Si el propietario del bucket tambien es propietario del objeto, el propietario del bucket tiene todos los permisos para replicar el objeto, si no, el propietario del objeto debe otorgar permisos al propietario del bucket de **Read** y **READ_ACP** via ACL object.
 * El rol de IAM debe tener los permisos suficientes para replicar los objetos en el bucket destino.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MzU5MjQ4Nyw0MTM3NDU0NjEsMTUzNz
-Q3NjE3MSwxNjYzNjUxOTA2LC02ODczNzY1MzMsLTE0NTkxNDI1
-MywzNTg0OTkxNzgsMTg0OTEyMjI2MywxODQ2MDUyNjMzLC01ND
-MzNjIzNDEsLTQzMzMxOTU1OCwxOTEyNTQzMDI5LC0zNTkyNjcy
-MjQsLTEyNDY4MzQ1NzVdfQ==
+eyJoaXN0b3J5IjpbLTk1OTg1MTEwNywxNjczNTkyNDg3LDQxMz
+c0NTQ2MSwxNTM3NDc2MTcxLDE2NjM2NTE5MDYsLTY4NzM3NjUz
+MywtMTQ1OTE0MjUzLDM1ODQ5OTE3OCwxODQ5MTIyMjYzLDE4ND
+YwNTI2MzMsLTU0MzM2MjM0MSwtNDMzMzE5NTU4LDE5MTI1NDMw
+MjksLTM1OTI2NzIyNCwtMTI0NjgzNDU3NV19
 -->
