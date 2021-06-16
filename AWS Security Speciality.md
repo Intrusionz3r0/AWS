@@ -276,10 +276,12 @@ Recuerda que **Explicit Denied** siempre triunfa sobre **allow** pero ¿que pasa
 Esto va a depender desde donde accedes al objecto, si estas autenticado e intentas acceder al objeto utilizando la URL del objeto en este caso puede ser algo como: [https://awssecuritycoursecg.s3.amazonaws.com/cloudendure.log](https://bucketchidoexample.s3.amazonaws.com/cloudendure.log) podras ver que si podras acceder y te preguntaras; ¿pero como si sabemos que **Explicit Denied** siempre gana sobre **Allow**? esto se debe a que si utilizamos el URL de arriba accederemos sin ningún método de autenticacion pero si lo hacemos utilizando el botón de **open** de la interfaz de S3 obtendremos un access denied y esto se debe a que estamos autenticados.
 
 
+
 * **[!]** **IMPORTANTE**
 ![](https://lh5.googleusercontent.com/mZtE2tOinnBVG7ciSIVIg9DRZubAQAa3cJqF7NZeyIiM34xtYiQFiXjJMQpqdv55NwAHz-zVN09lgU4o3dtgVMK52P6pcDJi_cF234u2nEYL_yYWRQX1AAmL3hVgGpLsKIpDNTM5)
 
-Cuando vaya al examen empiece con la mentalidad de que todo se va a negar 
+**Explicación del diagrama**
+Cuando vaya al examen empiece con la mentalidad de que todo se va a negar, esto por el principio de mínimo privilegio, luego eval
 
 
 * La decisión del principio de mínimo privilegio será negar.
@@ -288,7 +290,7 @@ Cuando vaya al examen empiece con la mentalidad de que todo se va a negar
 * Si no se especifica un **Deny** y uno o mas objetos tienen un **Allow** el resultado será permitir.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAzNTU3NDg0LDE4NDkxMjIyNjMsMTg0Nj
-A1MjYzMywtNTQzMzYyMzQxLC00MzMzMTk1NTgsMTkxMjU0MzAy
-OSwtMzU5MjY3MjI0LC0xMjQ2ODM0NTc1XX0=
+eyJoaXN0b3J5IjpbLTc3OTkzNzI5MCwxODQ5MTIyMjYzLDE4ND
+YwNTI2MzMsLTU0MzM2MjM0MSwtNDMzMzE5NTU4LDE5MTI1NDMw
+MjksLTM1OTI2NzIyNCwtMTI0NjgzNDU3NV19
 -->
