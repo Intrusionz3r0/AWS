@@ -239,7 +239,7 @@ Una política es un objeto de AWS que, cuando se asocia a una identidad o un rec
       "Resource": "arn:aws:s3:::examplebucket",
       "Principal": {
         "AWS": [
-          "arn:aws:iam::2631187776633:user/example-user"
+          "arn:aws:iam::2641187756633:user/example-user"
         ]
       }
     }
@@ -248,6 +248,6 @@ Una política es un objeto de AWS que, cuando se asocia a una identidad o un rec
 ```
 **Deny** sobrescribe el **Allow** por lo que el usuario *example-user* no podrá acceder a el bucket.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMzMxOTU1OCwxOTEyNTQzMDI5LC0zNT
-kyNjcyMjQsLTEyNDY4MzQ1NzVdfQ==
+eyJoaXN0b3J5IjpbLTU0MzM2MjM0MSwtNDMzMzE5NTU4LDE5MT
+I1NDMwMjksLTM1OTI2NzIyNCwtMTI0NjgzNDU3NV19
 -->
