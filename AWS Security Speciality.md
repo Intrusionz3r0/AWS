@@ -281,7 +281,7 @@ Esto va a depender desde donde accedes al objecto, si estas autenticado e intent
 ![](https://lh5.googleusercontent.com/mZtE2tOinnBVG7ciSIVIg9DRZubAQAa3cJqF7NZeyIiM34xtYiQFiXjJMQpqdv55NwAHz-zVN09lgU4o3dtgVMK52P6pcDJi_cF234u2nEYL_yYWRQX1AAmL3hVgGpLsKIpDNTM5)
 
 **Explicación del diagrama**
-Cuando vaya al examen empiece con la mentalidad de que todo se va a negar, esto por el principio de mínimo privilegio, luego eval
+Cuando vaya al examen empiece con la mentalidad de que todo se va a negar, esto por el principio de mínimo privilegio, luego evalue las politicas, si encuentra una negación explicita entonces el resultado será **Deny**, si no hay negación explicita y hay un permitido entonces 
 
 
 * La decisión del principio de mínimo privilegio será negar.
@@ -290,7 +290,7 @@ Cuando vaya al examen empiece con la mentalidad de que todo se va a negar, esto 
 * Si no se especifica un **Deny** y uno o mas objetos tienen un **Allow** el resultado será permitir.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3OTkzNzI5MCwxODQ5MTIyMjYzLDE4ND
-YwNTI2MzMsLTU0MzM2MjM0MSwtNDMzMzE5NTU4LDE5MTI1NDMw
-MjksLTM1OTI2NzIyNCwtMTI0NjgzNDU3NV19
+eyJoaXN0b3J5IjpbMzU4NDk5MTc4LDE4NDkxMjIyNjMsMTg0Nj
+A1MjYzMywtNTQzMzYyMzQxLC00MzMzMTk1NTgsMTkxMjU0MzAy
+OSwtMzU5MjY3MjI0LC0xMjQ2ODM0NTc1XX0=
 -->
