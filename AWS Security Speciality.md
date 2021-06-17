@@ -381,8 +381,14 @@ Si ingresas al bucket de origen y elimina un objeto a este se le agrega un marca
 
 
 **Nota:** Para usar certificados **SSL** debes importar su certificado atraves de ACM.
+
+
+
+
+
+# Usando certificados SSL
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MjU1NjQxLC0xNDYxMzg1NzEzLDEwOD
+eyJoaXN0b3J5IjpbNjg5ODg4ODMwLC0xNDYxMzg1NzEzLDEwOD
 czODcwMzIsMTAwNzAyNTY1OSwxNTM1MDMzMjkzLDQxODgwOTMx
 OSw0OTg3Mzk2ODMsMTY3MzU5MjQ4Nyw0MTM3NDU0NjEsMTUzNz
 Q3NjE3MSwxNjYzNjUxOTA2LC02ODczNzY1MzMsLTE0NTkxNDI1
