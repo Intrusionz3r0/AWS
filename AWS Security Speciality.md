@@ -416,9 +416,10 @@ Siempre lo primero es autenticarse contra algun servicio de tercero como faceboo
 # Web Identity Federation
 
 
-* 
+* La federación le permite autenticarse mediante algun proveedor de identidad web como Facebook, Google, Amazon.
+* El usuario se autentica primero contra el proveedor de terceros como Facebook, Google, Amazon y recibe su toke
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDc1NTMyMSw3OTA1NzIyNTcsOTQwNj
+eyJoaXN0b3J5IjpbLTgzMTUxNTA4Myw3OTA1NzIyNTcsOTQwNj
 Y0NjUzLDY0MjQ3NDA3NywtMTY1ODQ0MzY2MSwtMTQwNzg0MzY0
 NCwxMzkxNjg4Niw2ODk4ODg4MzAsLTE0NjEzODU3MTMsMTA4Nz
 M4NzAzMiwxMDA3MDI1NjU5LDE1MzUwMzMyOTMsNDE4ODA5MzE5
