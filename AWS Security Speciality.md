@@ -424,12 +424,19 @@ Amazon Cognito le permite incorporar de manera rápida y sencilla el registro, i
 * Sincroniza los datos de usuario entre tus dispositivos.
 * AWS cognito es recomendado por AWS para **Web ID Federation** en particularmente para aplicaciones moviles.
 * **[!] Cognito usa USER POOL para gestionar el registro y el inicio de sesion mediante provedores de identidad web** 
+
+
+
+
+# Glacie Vault Lock
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4Nzk4NTMyNSwtMTI4MTUyMjk2OCw3OT
-A1NzIyNTcsOTQwNjY0NjUzLDY0MjQ3NDA3NywtMTY1ODQ0MzY2
-MSwtMTQwNzg0MzY0NCwxMzkxNjg4Niw2ODk4ODg4MzAsLTE0Nj
-EzODU3MTMsMTA4NzM4NzAzMiwxMDA3MDI1NjU5LDE1MzUwMzMy
-OTMsNDE4ODA5MzE5LDQ5ODczOTY4MywxNjczNTkyNDg3LDQxMz
-c0NTQ2MSwxNTM3NDc2MTcxLDE2NjM2NTE5MDYsLTY4NzM3NjUz
-M119
+eyJoaXN0b3J5IjpbNDQ2NTE0NzU2LDE2ODc5ODUzMjUsLTEyOD
+E1MjI5NjgsNzkwNTcyMjU3LDk0MDY2NDY1Myw2NDI0NzQwNzcs
+LTE2NTg0NDM2NjEsLTE0MDc4NDM2NDQsMTM5MTY4ODYsNjg5OD
+g4ODMwLC0xNDYxMzg1NzEzLDEwODczODcwMzIsMTAwNzAyNTY1
+OSwxNTM1MDMzMjkzLDQxODgwOTMxOSw0OTg3Mzk2ODMsMTY3Mz
+U5MjQ4Nyw0MTM3NDU0NjEsMTUzNzQ3NjE3MSwxNjYzNjUxOTA2
+XX0=
 -->
