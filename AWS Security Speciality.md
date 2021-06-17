@@ -405,13 +405,17 @@ AWS Security Token Service (AWS STS) es un servicio web que le permite solicitar
 
 ![](https://lh3.googleusercontent.com/NfeC7R649v1HFaVxObmj1lDDNI7N7RBaaj17F6X2gDBoOHsSh-WHrx_mrRZEdfQ6NrhFEulq1l8EufwzW7hQaFR_1Cvs93vRGXUzz1q-n8d-uJkU9747HjWsZsHHL9HCJ8UHhOFh)
 
-Un usuario se conecta a una aplicación personalizada esta aplicación usa **Identity Broker** para comparar el usuario y la contraseña contra algun servicio como (Facebook, Active Directory, Google) si las credenciales son correctas la solicitud se envía al servicio STS para generar un ticket temporal, este lo pasa a tu aplicación y utilizando el ticket inteta acceder al servicio s3 pero primero lo compara con IAM para verificar la integridad del ticket, una vez compara
+Un usuario se conecta a una aplicación personalizada esta aplicación usa **Identity Broker** para comparar el usuario y la contraseña contra algun servicio como (Facebook, Active Directory, Google) si las credenciales son correctas la solicitud se envía al servicio STS para generar un ticket temporal, este lo pasa a tu aplicación y utilizando el ticket inteta acceder al servicio s3 pero primero lo compara con IAM para verificar la integridad del ticket, una vez comparado le permite el acceso al servicio S3.
+
+
+**Consejos**
+Siempre lo primero es auntenticarse contra algun servicio como FACEBOOK,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2Mzk0NjkxLDY0MjQ3NDA3NywtMTY1OD
-Q0MzY2MSwtMTQwNzg0MzY0NCwxMzkxNjg4Niw2ODk4ODg4MzAs
-LTE0NjEzODU3MTMsMTA4NzM4NzAzMiwxMDA3MDI1NjU5LDE1Mz
-UwMzMyOTMsNDE4ODA5MzE5LDQ5ODczOTY4MywxNjczNTkyNDg3
-LDQxMzc0NTQ2MSwxNTM3NDc2MTcxLDE2NjM2NTE5MDYsLTY4Nz
-M3NjUzMywtMTQ1OTE0MjUzLDM1ODQ5OTE3OCwxODQ5MTIyMjYz
-XX0=
+eyJoaXN0b3J5IjpbMTQzNzkzNTI4Myw2NDI0NzQwNzcsLTE2NT
+g0NDM2NjEsLTE0MDc4NDM2NDQsMTM5MTY4ODYsNjg5ODg4ODMw
+LC0xNDYxMzg1NzEzLDEwODczODcwMzIsMTAwNzAyNTY1OSwxNT
+M1MDMzMjkzLDQxODgwOTMxOSw0OTg3Mzk2ODMsMTY3MzU5MjQ4
+Nyw0MTM3NDU0NjEsMTUzNzQ3NjE3MSwxNjYzNjUxOTA2LC02OD
+czNzY1MzMsLTE0NTkxNDI1MywzNTg0OTkxNzgsMTg0OTEyMjI2
+M119
 -->
