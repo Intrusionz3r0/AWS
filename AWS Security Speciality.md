@@ -363,11 +363,16 @@ Si ingresas al bucket de origen y elimina un objeto a este se le agrega un marca
 * No replica eliminación de versiones, esto para evitar que personas maliciosas hagan esta accion con el fin de perjudicar.
 
 **Nota:** Si un objeto tiene el marcador de eliminación y usted quiere restaurar el objeto solo entre y elimine el marcador de eliminación.
+
+
+
+# S3 con CloudFront
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NzM4NzAzMiwxMDA3MDI1NjU5LDE1Mz
-UwMzMyOTMsNDE4ODA5MzE5LDQ5ODczOTY4MywxNjczNTkyNDg3
-LDQxMzc0NTQ2MSwxNTM3NDc2MTcxLDE2NjM2NTE5MDYsLTY4Nz
-M3NjUzMywtMTQ1OTE0MjUzLDM1ODQ5OTE3OCwxODQ5MTIyMjYz
-LDE4NDYwNTI2MzMsLTU0MzM2MjM0MSwtNDMzMzE5NTU4LDE5MT
-I1NDMwMjksLTM1OTI2NzIyNCwtMTI0NjgzNDU3NV19
+eyJoaXN0b3J5IjpbLTE0NjEzODU3MTMsMTA4NzM4NzAzMiwxMD
+A3MDI1NjU5LDE1MzUwMzMyOTMsNDE4ODA5MzE5LDQ5ODczOTY4
+MywxNjczNTkyNDg3LDQxMzc0NTQ2MSwxNTM3NDc2MTcxLDE2Nj
+M2NTE5MDYsLTY4NzM3NjUzMywtMTQ1OTE0MjUzLDM1ODQ5OTE3
+OCwxODQ5MTIyMjYzLDE4NDYwNTI2MzMsLTU0MzM2MjM0MSwtND
+MzMzE5NTU4LDE5MTI1NDMwMjksLTM1OTI2NzIyNCwtMTI0Njgz
+NDU3NV19
 -->
