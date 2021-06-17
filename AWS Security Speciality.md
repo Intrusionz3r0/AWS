@@ -430,13 +430,25 @@ Amazon Cognito le permite incorporar de manera rápida y sencilla el registro, i
 
 # Glacie Vault Lock
 
-* Glacie
+* Los archivos se organizan y se alamacenan e Vaults
+
+* Vaults son contenedores cual almacenan uno o mas archivos
+* Glacier es extremadamente de bajo costo.
+
+* Una política de bloque de Bóveda le permite configurar y hacer cumplir los controles de cumplimiento para Glacier Vaults
+
+* Para que pueda configurar  y escribir una política vea que estén listos muchos archivos WORM
+
+* Suele usarse para retención de archivos.
+* Suele ser utilizado para archivas y realizar copias de seguridad a largo plazo
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMzI5MDg1OSw0NDY1MTQ3NTYsMTY4Nz
-k4NTMyNSwtMTI4MTUyMjk2OCw3OTA1NzIyNTcsOTQwNjY0NjUz
-LDY0MjQ3NDA3NywtMTY1ODQ0MzY2MSwtMTQwNzg0MzY0NCwxMz
-kxNjg4Niw2ODk4ODg4MzAsLTE0NjEzODU3MTMsMTA4NzM4NzAz
-MiwxMDA3MDI1NjU5LDE1MzUwMzMyOTMsNDE4ODA5MzE5LDQ5OD
-czOTY4MywxNjczNTkyNDg3LDQxMzc0NTQ2MSwxNTM3NDc2MTcx
+eyJoaXN0b3J5IjpbLTYwOTI3OTk4NiwxODIzMjkwODU5LDQ0Nj
+UxNDc1NiwxNjg3OTg1MzI1LC0xMjgxNTIyOTY4LDc5MDU3MjI1
+Nyw5NDA2NjQ2NTMsNjQyNDc0MDc3LC0xNjU4NDQzNjYxLC0xND
+A3ODQzNjQ0LDEzOTE2ODg2LDY4OTg4ODgzMCwtMTQ2MTM4NTcx
+MywxMDg3Mzg3MDMyLDEwMDcwMjU2NTksMTUzNTAzMzI5Myw0MT
+g4MDkzMTksNDk4NzM5NjgzLDE2NzM1OTI0ODcsNDEzNzQ1NDYx
 XX0=
 -->
