@@ -385,17 +385,17 @@ Si ingresas al bucket de origen y elimina un objeto a este se le agrega un marca
 * Tambien puedes almacenar tu certificado dentro de **IAM**  usando de IAM CLI.
 
 
-
+# Proteger S3 usando URL predefinidas.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTY4ODYsNjg5ODg4ODMwLC0xNDYxMz
-g1NzEzLDEwODczODcwMzIsMTAwNzAyNTY1OSwxNTM1MDMzMjkz
-LDQxODgwOTMxOSw0OTg3Mzk2ODMsMTY3MzU5MjQ4Nyw0MTM3ND
-U0NjEsMTUzNzQ3NjE3MSwxNjYzNjUxOTA2LC02ODczNzY1MzMs
-LTE0NTkxNDI1MywzNTg0OTkxNzgsMTg0OTEyMjI2MywxODQ2MD
-UyNjMzLC01NDMzNjIzNDEsLTQzMzMxOTU1OCwxOTEyNTQzMDI5
-XX0=
+eyJoaXN0b3J5IjpbLTE0MDc4NDM2NDQsMTM5MTY4ODYsNjg5OD
+g4ODMwLC0xNDYxMzg1NzEzLDEwODczODcwMzIsMTAwNzAyNTY1
+OSwxNTM1MDMzMjkzLDQxODgwOTMxOSw0OTg3Mzk2ODMsMTY3Mz
+U5MjQ4Nyw0MTM3NDU0NjEsMTUzNzQ3NjE3MSwxNjYzNjUxOTA2
+LC02ODczNzY1MzMsLTE0NTkxNDI1MywzNTg0OTkxNzgsMTg0OT
+EyMjI2MywxODQ2MDUyNjMzLC01NDMzNjIzNDEsLTQzMzMxOTU1
+OF19
 -->
