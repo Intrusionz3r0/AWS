@@ -371,20 +371,20 @@ Si ingresas al bucket de origen y elimina un objeto a este se le agrega un marca
 
 ### Forzar a los usuario a usar la URL de cloudfront en lugar de la URL de s3
 
-1.- Entra al servicio **CloudFront** y haz clic en **Edit Origin**
-2.- Necesitas restringir el acceso al deposito **Restrict Bucket Access**
-3.- Crear una nueva identidad o usar una identidad existente **Origin Access Identity**
-4.- Conceder permisos de lectura en el bucket
+1.- Entra al servicio **CloudFront** y haz clic en **Edit Origin**.
+2.- Necesitas restringir el acceso al deposito. **Restrict Bucket Access**
+3.- Crear una nueva identidad o usar una identidad existente. **Origin Access Identity**
+4.- Conceder permisos de lectura en el bucket.
 
 
 ![](https://lh5.googleusercontent.com/TpYi-Mb9XNVWzkdbayDcpFUR7Ev5UykhZK83fPOBqSzZ-PO7RUOio2sclvMcmLg0M10HWUoBVE1x6Q82-5W5EhsgQPdavoYLDbBmeHPWH_0V9c0ZL5aa_pJRsz2NHOitYDwkYEkI)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzY4Mjk0NjQsLTE0NjEzODU3MTMsMT
-A4NzM4NzAzMiwxMDA3MDI1NjU5LDE1MzUwMzMyOTMsNDE4ODA5
-MzE5LDQ5ODczOTY4MywxNjczNTkyNDg3LDQxMzc0NTQ2MSwxNT
-M3NDc2MTcxLDE2NjM2NTE5MDYsLTY4NzM3NjUzMywtMTQ1OTE0
-MjUzLDM1ODQ5OTE3OCwxODQ5MTIyMjYzLDE4NDYwNTI2MzMsLT
-U0MzM2MjM0MSwtNDMzMzE5NTU4LDE5MTI1NDMwMjksLTM1OTI2
-NzIyNF19
+eyJoaXN0b3J5IjpbMzgxMTA1NzEwLC0xNDYxMzg1NzEzLDEwOD
+czODcwMzIsMTAwNzAyNTY1OSwxNTM1MDMzMjkzLDQxODgwOTMx
+OSw0OTg3Mzk2ODMsMTY3MzU5MjQ4Nyw0MTM3NDU0NjEsMTUzNz
+Q3NjE3MSwxNjYzNjUxOTA2LC02ODczNzY1MzMsLTE0NTkxNDI1
+MywzNTg0OTkxNzgsMTg0OTEyMjI2MywxODQ2MDUyNjMzLC01ND
+MzNjIzNDEsLTQzMzMxOTU1OCwxOTEyNTQzMDI5LC0zNTkyNjcy
+MjRdfQ==
 -->
