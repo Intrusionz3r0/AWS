@@ -379,9 +379,11 @@ Si ingresas al bucket de origen y elimina un objeto a este se le agrega un marca
 
 ![](https://lh5.googleusercontent.com/TpYi-Mb9XNVWzkdbayDcpFUR7Ev5UykhZK83fPOBqSzZ-PO7RUOio2sclvMcmLg0M10HWUoBVE1x6Q82-5W5EhsgQPdavoYLDbBmeHPWH_0V9c0ZL5aa_pJRsz2NHOitYDwkYEkI)
 
-* SI deseas usar *.cloudfront.net como nombre de domino debes usar **Default CloudFront Certificate**
+* SI deseas usar *.cloudfront.net como nombre de domino debes usar **Default CloudFront Certificate**.
+* Si deseas usar tu propio nombre de dominio personalizado debes usar **Custom SSL Certificate**.
 * Si usas ACM tu certificado debe ser creado o registrado en la region de virginia us-east-1 para que **CloudFront** lo use.
-* Para usar certificados **SSL** debes importar su certificado atraves de ACM.
+* Tambien puedes almacenar tu certificado dentro de **IAM**  usando de IAM CLI.
+
 
 
 
@@ -389,11 +391,11 @@ Si ingresas al bucket de origen y elimina un objeto a este se le agrega un marca
 
 # Usando certificados SSL
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Mjk3NzMzOCw2ODk4ODg4MzAsLTE0Nj
-EzODU3MTMsMTA4NzM4NzAzMiwxMDA3MDI1NjU5LDE1MzUwMzMy
-OTMsNDE4ODA5MzE5LDQ5ODczOTY4MywxNjczNTkyNDg3LDQxMz
-c0NTQ2MSwxNTM3NDc2MTcxLDE2NjM2NTE5MDYsLTY4NzM3NjUz
-MywtMTQ1OTE0MjUzLDM1ODQ5OTE3OCwxODQ5MTIyMjYzLDE4ND
-YwNTI2MzMsLTU0MzM2MjM0MSwtNDMzMzE5NTU4LDE5MTI1NDMw
-MjldfQ==
+eyJoaXN0b3J5IjpbLTE2NjMzOTIwMTMsNjg5ODg4ODMwLC0xND
+YxMzg1NzEzLDEwODczODcwMzIsMTAwNzAyNTY1OSwxNTM1MDMz
+MjkzLDQxODgwOTMxOSw0OTg3Mzk2ODMsMTY3MzU5MjQ4Nyw0MT
+M3NDU0NjEsMTUzNzQ3NjE3MSwxNjYzNjUxOTA2LC02ODczNzY1
+MzMsLTE0NTkxNDI1MywzNTg0OTkxNzgsMTg0OTEyMjI2MywxOD
+Q2MDUyNjMzLC01NDMzNjIzNDEsLTQzMzMxOTU1OCwxOTEyNTQz
+MDI5XX0=
 -->
