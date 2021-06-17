@@ -388,14 +388,15 @@ Si ingresas al bucket de origen y elimina un objeto a este se le agrega un marca
 # Proteger S3 usando URL predefinidas.
 
 
-
-aws s3 presign s3://mibucketname/hello.txt --expires-in 300
+```bash
+Intrusionz3r0@kali:~$ aws s3 presign s3://mibucketname/hello.txt --expires-in 300
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTYwNDc1NCwtMTQwNzg0MzY0NCwxMz
-kxNjg4Niw2ODk4ODg4MzAsLTE0NjEzODU3MTMsMTA4NzM4NzAz
-MiwxMDA3MDI1NjU5LDE1MzUwMzMyOTMsNDE4ODA5MzE5LDQ5OD
-czOTY4MywxNjczNTkyNDg3LDQxMzc0NTQ2MSwxNTM3NDc2MTcx
-LDE2NjM2NTE5MDYsLTY4NzM3NjUzMywtMTQ1OTE0MjUzLDM1OD
-Q5OTE3OCwxODQ5MTIyMjYzLDE4NDYwNTI2MzMsLTU0MzM2MjM0
-MV19
+eyJoaXN0b3J5IjpbLTE2NTg0NDM2NjEsLTE0MDc4NDM2NDQsMT
+M5MTY4ODYsNjg5ODg4ODMwLC0xNDYxMzg1NzEzLDEwODczODcw
+MzIsMTAwNzAyNTY1OSwxNTM1MDMzMjkzLDQxODgwOTMxOSw0OT
+g3Mzk2ODMsMTY3MzU5MjQ4Nyw0MTM3NDU0NjEsMTUzNzQ3NjE3
+MSwxNjYzNjUxOTA2LC02ODczNzY1MzMsLTE0NTkxNDI1MywzNT
+g0OTkxNzgsMTg0OTEyMjI2MywxODQ2MDUyNjMzLC01NDMzNjIz
+NDFdfQ==
 -->
