@@ -401,11 +401,14 @@ Intrusionz3r0@kali:~$ aws s3 presign s3://mibucketname/hello.txt --expires-in 30
 AWS Security Token Service (AWS STS) es un servicio web que le permite solicitar credenciales temporales con privilegios limitados para los usuarios de AWS Identity and Access Management (IAM) o para los usuarios que usted autentica (usuarios federados).
 
 
-
+### Como funciona:
 
 ![](https://lh3.googleusercontent.com/NfeC7R649v1HFaVxObmj1lDDNI7N7RBaaj17F6X2gDBoOHsSh-WHrx_mrRZEdfQ6NrhFEulq1l8EufwzW7hQaFR_1Cvs93vRGXUzz1q-n8d-uJkU9747HjWsZsHHL9HCJ8UHhOFh)
+
+Un usuario se conecta a una aplicación personalizada esta aplicaci
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDI0NDQxNyw2NDI0NzQwNzcsLTE2NT
+eyJoaXN0b3J5IjpbMTI3ODQyODc3NSw2NDI0NzQwNzcsLTE2NT
 g0NDM2NjEsLTE0MDc4NDM2NDQsMTM5MTY4ODYsNjg5ODg4ODMw
 LC0xNDYxMzg1NzEzLDEwODczODcwMzIsMTAwNzAyNTY1OSwxNT
 M1MDMzMjkzLDQxODgwOTMxOSw0OTg3Mzk2ODMsMTY3MzU5MjQ4
