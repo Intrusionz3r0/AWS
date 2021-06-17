@@ -421,13 +421,13 @@ Siempre lo primero es autenticarse contra algun servicio de tercero como faceboo
 * Cognito es **identity Broker** el cual maneja la interacción entre la aplicación web y el Web Id Provider.
 * Proporciona registro, inicio de sesión y acceso invitado.
 * Sincroniza los datos de usuario entre tus dispositivos.
-* 
+* AWS cognito es recomendado por AWS para **Web ID Federation** en particularmente para aplicaciones moviles
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA5MjY1NTYwLDc5MDU3MjI1Nyw5NDA2Nj
-Q2NTMsNjQyNDc0MDc3LC0xNjU4NDQzNjYxLC0xNDA3ODQzNjQ0
-LDEzOTE2ODg2LDY4OTg4ODgzMCwtMTQ2MTM4NTcxMywxMDg3Mz
-g3MDMyLDEwMDcwMjU2NTksMTUzNTAzMzI5Myw0MTg4MDkzMTks
-NDk4NzM5NjgzLDE2NzM1OTI0ODcsNDEzNzQ1NDYxLDE1Mzc0Nz
-YxNzEsMTY2MzY1MTkwNiwtNjg3Mzc2NTMzLC0xNDU5MTQyNTNd
-fQ==
+eyJoaXN0b3J5IjpbLTEyODE1MjI5NjgsNzkwNTcyMjU3LDk0MD
+Y2NDY1Myw2NDI0NzQwNzcsLTE2NTg0NDM2NjEsLTE0MDc4NDM2
+NDQsMTM5MTY4ODYsNjg5ODg4ODMwLC0xNDYxMzg1NzEzLDEwOD
+czODcwMzIsMTAwNzAyNTY1OSwxNTM1MDMzMjkzLDQxODgwOTMx
+OSw0OTg3Mzk2ODMsMTY3MzU5MjQ4Nyw0MTM3NDU0NjEsMTUzNz
+Q3NjE3MSwxNjYzNjUxOTA2LC02ODczNzY1MzMsLTE0NTkxNDI1
+M119
 -->
