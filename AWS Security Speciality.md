@@ -379,12 +379,14 @@ Si ingresas al bucket de origen y elimina un objeto a este se le agrega un marca
 
 ![](https://lh5.googleusercontent.com/TpYi-Mb9XNVWzkdbayDcpFUR7Ev5UykhZK83fPOBqSzZ-PO7RUOio2sclvMcmLg0M10HWUoBVE1x6Q82-5W5EhsgQPdavoYLDbBmeHPWH_0V9c0ZL5aa_pJRsz2NHOitYDwkYEkI)
 
+
+**Nota:** Para usar certificados **SSL** debes importar su certificado dentro de CloudFront.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgxMTA1NzEwLC0xNDYxMzg1NzEzLDEwOD
-czODcwMzIsMTAwNzAyNTY1OSwxNTM1MDMzMjkzLDQxODgwOTMx
-OSw0OTg3Mzk2ODMsMTY3MzU5MjQ4Nyw0MTM3NDU0NjEsMTUzNz
-Q3NjE3MSwxNjYzNjUxOTA2LC02ODczNzY1MzMsLTE0NTkxNDI1
-MywzNTg0OTkxNzgsMTg0OTEyMjI2MywxODQ2MDUyNjMzLC01ND
-MzNjIzNDEsLTQzMzMxOTU1OCwxOTEyNTQzMDI5LC0zNTkyNjcy
-MjRdfQ==
+eyJoaXN0b3J5IjpbMTI0NDU0NzE4OCwtMTQ2MTM4NTcxMywxMD
+g3Mzg3MDMyLDEwMDcwMjU2NTksMTUzNTAzMzI5Myw0MTg4MDkz
+MTksNDk4NzM5NjgzLDE2NzM1OTI0ODcsNDEzNzQ1NDYxLDE1Mz
+c0NzYxNzEsMTY2MzY1MTkwNiwtNjg3Mzc2NTMzLC0xNDU5MTQy
+NTMsMzU4NDk5MTc4LDE4NDkxMjIyNjMsMTg0NjA1MjYzMywtNT
+QzMzYyMzQxLC00MzMzMTk1NTgsMTkxMjU0MzAyOSwtMzU5MjY3
+MjI0XX0=
 -->
