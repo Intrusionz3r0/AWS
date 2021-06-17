@@ -409,9 +409,9 @@ Un usuario se conecta a una aplicación personalizada esta aplicación usa **Ide
 
 
 **Consejos**
-Siempre lo primero es auntenticarse contra algun servicio como FACEBOOK,
+Siempre lo primero es autenticarse contra algun servicio de tercero como facebook, google o active directory después se autentica contra STS, STS te genera una ficha
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzkzNTI4Myw2NDI0NzQwNzcsLTE2NT
+eyJoaXN0b3J5IjpbMjA0OTM4MDc1Nyw2NDI0NzQwNzcsLTE2NT
 g0NDM2NjEsLTE0MDc4NDM2NDQsMTM5MTY4ODYsNjg5ODg4ODMw
 LC0xNDYxMzg1NzEzLDEwODczODcwMzIsMTAwNzAyNTY1OSwxNT
 M1MDMzMjkzLDQxODgwOTMxOSw0OTg3Mzk2ODMsMTY3MzU5MjQ4
