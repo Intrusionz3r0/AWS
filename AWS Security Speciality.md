@@ -423,13 +423,13 @@ Amazon Cognito le permite incorporar de manera rápida y sencilla el registro, i
 * Proporciona registro, inicio de sesión y acceso invitado.
 * Sincroniza los datos de usuario entre tus dispositivos.
 * AWS cognito es recomendado por AWS para **Web ID Federation** en particularmente para aplicaciones moviles.
-* **Cognito usa USER POOL** para gestionar 
+* **[!] Cognito usa USER POOL para gestionar el registro y el inicio de sesion mediante provedores de identidad web** 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzM1MzU0LC0xMjgxNTIyOTY4LDc5MD
-U3MjI1Nyw5NDA2NjQ2NTMsNjQyNDc0MDc3LC0xNjU4NDQzNjYx
-LC0xNDA3ODQzNjQ0LDEzOTE2ODg2LDY4OTg4ODgzMCwtMTQ2MT
-M4NTcxMywxMDg3Mzg3MDMyLDEwMDcwMjU2NTksMTUzNTAzMzI5
-Myw0MTg4MDkzMTksNDk4NzM5NjgzLDE2NzM1OTI0ODcsNDEzNz
-Q1NDYxLDE1Mzc0NzYxNzEsMTY2MzY1MTkwNiwtNjg3Mzc2NTMz
-XX0=
+eyJoaXN0b3J5IjpbMTY4Nzk4NTMyNSwtMTI4MTUyMjk2OCw3OT
+A1NzIyNTcsOTQwNjY0NjUzLDY0MjQ3NDA3NywtMTY1ODQ0MzY2
+MSwtMTQwNzg0MzY0NCwxMzkxNjg4Niw2ODk4ODg4MzAsLTE0Nj
+EzODU3MTMsMTA4NzM4NzAzMiwxMDA3MDI1NjU5LDE1MzUwMzMy
+OTMsNDE4ODA5MzE5LDQ5ODczOTY4MywxNjczNTkyNDg3LDQxMz
+c0NTQ2MSwxNTM3NDc2MTcxLDE2NjM2NTE5MDYsLTY4NzM3NjUz
+M119
 -->
