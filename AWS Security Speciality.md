@@ -413,21 +413,23 @@ Siempre lo primero es autenticarse contra algun servicio de tercero como faceboo
 
 
 
-# Web Identity Federation
+# Cognito - Web Identity Federation
 
+Amazon Cognito le permite incorporar de manera rápida y sencilla el registro, inicio de sesión y control de acceso de usuarios a sus aplicaciones web y móviles. Amazon Cognito cuenta con escalado para millones de usuarios y admite el inicio de sesión mediante proveedores de identidad social, como Apple, Facebook, Google y Amazon, así como con proveedores de identidad empresarial a través de SAML 2.0 y OpenID Connect.
 
 * La federación le permite autenticarse mediante algun proveedor de identidad web como Facebook, Google, Amazon.
 * El usuario se autentica primero contra el proveedor de terceros como Facebook, Google, Amazon y recibe su token el cual se intercambia por credenciales temporales de aws permitiendole una gestion de IAM Role.
 * Cognito es **identity Broker** el cual maneja la interacción entre la aplicación web y el Web Id Provider.
 * Proporciona registro, inicio de sesión y acceso invitado.
 * Sincroniza los datos de usuario entre tus dispositivos.
-* AWS cognito es recomendado por AWS para **Web ID Federation** en particularmente para aplicaciones moviles
+* AWS cognito es recomendado por AWS para **Web ID Federation** en particularmente para aplicaciones moviles.
+* **Cognito usa USER POOL** para gestionar 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODE1MjI5NjgsNzkwNTcyMjU3LDk0MD
-Y2NDY1Myw2NDI0NzQwNzcsLTE2NTg0NDM2NjEsLTE0MDc4NDM2
-NDQsMTM5MTY4ODYsNjg5ODg4ODMwLC0xNDYxMzg1NzEzLDEwOD
-czODcwMzIsMTAwNzAyNTY1OSwxNTM1MDMzMjkzLDQxODgwOTMx
-OSw0OTg3Mzk2ODMsMTY3MzU5MjQ4Nyw0MTM3NDU0NjEsMTUzNz
-Q3NjE3MSwxNjYzNjUxOTA2LC02ODczNzY1MzMsLTE0NTkxNDI1
-M119
+eyJoaXN0b3J5IjpbMTcyMzM1MzU0LC0xMjgxNTIyOTY4LDc5MD
+U3MjI1Nyw5NDA2NjQ2NTMsNjQyNDc0MDc3LC0xNjU4NDQzNjYx
+LC0xNDA3ODQzNjQ0LDEzOTE2ODg2LDY4OTg4ODgzMCwtMTQ2MT
+M4NTcxMywxMDg3Mzg3MDMyLDEwMDcwMjU2NTksMTUzNTAzMzI5
+Myw0MTg4MDkzMTksNDk4NzM5NjgzLDE2NzM1OTI0ODcsNDEzNz
+Q1NDYxLDE1Mzc0NzYxNzEsMTY2MzY1MTkwNiwtNjg3Mzc2NTMz
+XX0=
 -->
