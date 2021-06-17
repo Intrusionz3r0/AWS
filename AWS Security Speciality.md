@@ -405,13 +405,13 @@ AWS Security Token Service (AWS STS) es un servicio web que le permite solicitar
 
 ![](https://lh3.googleusercontent.com/NfeC7R649v1HFaVxObmj1lDDNI7N7RBaaj17F6X2gDBoOHsSh-WHrx_mrRZEdfQ6NrhFEulq1l8EufwzW7hQaFR_1Cvs93vRGXUzz1q-n8d-uJkU9747HjWsZsHHL9HCJ8UHhOFh)
 
-Un usuario se conecta a una aplicación personalizada esta aplicación usa **Identity Broker** para comparar el usuario y la contraseña contra algun servicio como (Facebook, Active Directory, Google) si las credenciales son correctas la solicitud se envía al servicio STS para generar un ticket temporal, este lo pasa a tu aplicación y utilizando el ticket inteta acceder al servicio s3 pero primero lo compara con IAM para verificar la integridad del ticket, una vez comparado le permite el acceso al servicio S3.
+Un usuario se conecta a una aplicación personalizada esta aplicación usa **Identity Broker** para comparar el usuario y la contraseña contra algun servicio como (Facebook, Active Directory, Google) si las credenciales son correctas la solicitud se envía al servicio STS para generar un ticket temporal, este lo pasa a tu aplicación y utilizando el ticket inteta acceder al servicio s3 pero rápidamente lo compara con IAM para verificar la integridad del ticket, una vez comparado le permite el acceso al servicio S3.
 
 
 **Consejos**
-Siempre lo primero es autenticarse contra algun servicio de tercero como facebook, google o active directory después se autentica contra STS, STS te genera una ticket e intenta acceder algun servicio de AWS pero comprueba rapidamente con IAM par
+Siempre lo primero es autenticarse contra algun servicio de tercero como facebook, google o active directory después se autentica contra STS, STS te genera una ticket e intenta acceder algun servicio de AWS pero comprueba rápidamente con IAM para validar el ticket y si todo sale bien entonces te permite acceder al servicio.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3Mjk2OTQ0LDY0MjQ3NDA3NywtMTY1OD
+eyJoaXN0b3J5IjpbOTQwNjY0NjUzLDY0MjQ3NDA3NywtMTY1OD
 Q0MzY2MSwtMTQwNzg0MzY0NCwxMzkxNjg4Niw2ODk4ODg4MzAs
 LTE0NjEzODU3MTMsMTA4NzM4NzAzMiwxMDA3MDI1NjU5LDE1Mz
 UwMzMyOTMsNDE4ODA5MzE5LDQ5ODczOTY4MywxNjczNTkyNDg3
