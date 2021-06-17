@@ -418,14 +418,14 @@ Siempre lo primero es autenticarse contra algun servicio de tercero como faceboo
 
 * La federación le permite autenticarse mediante algun proveedor de identidad web como Facebook, Google, Amazon.
 * El usuario se autentica primero contra el proveedor de terceros como Facebook, Google, Amazon y recibe su token el cual se intercambia por credenciales temporales de aws permitiendole una gestion de IAM Role.
-* Cognito es **identity Broker** el cual maneja la interaccion entre la aplicación web.
+* Cognito es **identity Broker** el cual maneja la interacción entre la aplicación web y el Web Id Provider.
 * Sincroniza los datos de usuario.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIxNTcxMDU1LDc5MDU3MjI1Nyw5NDA2Nj
-Q2NTMsNjQyNDc0MDc3LC0xNjU4NDQzNjYxLC0xNDA3ODQzNjQ0
-LDEzOTE2ODg2LDY4OTg4ODgzMCwtMTQ2MTM4NTcxMywxMDg3Mz
-g3MDMyLDEwMDcwMjU2NTksMTUzNTAzMzI5Myw0MTg4MDkzMTks
-NDk4NzM5NjgzLDE2NzM1OTI0ODcsNDEzNzQ1NDYxLDE1Mzc0Nz
-YxNzEsMTY2MzY1MTkwNiwtNjg3Mzc2NTMzLC0xNDU5MTQyNTNd
-fQ==
+eyJoaXN0b3J5IjpbLTEyMjIxMzI5OSw3OTA1NzIyNTcsOTQwNj
+Y0NjUzLDY0MjQ3NDA3NywtMTY1ODQ0MzY2MSwtMTQwNzg0MzY0
+NCwxMzkxNjg4Niw2ODk4ODg4MzAsLTE0NjEzODU3MTMsMTA4Nz
+M4NzAzMiwxMDA3MDI1NjU5LDE1MzUwMzMyOTMsNDE4ODA5MzE5
+LDQ5ODczOTY4MywxNjczNTkyNDg3LDQxMzc0NTQ2MSwxNTM3ND
+c2MTcxLDE2NjM2NTE5MDYsLTY4NzM3NjUzMywtMTQ1OTE0MjUz
+XX0=
 -->
