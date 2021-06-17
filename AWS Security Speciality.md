@@ -396,13 +396,15 @@ Intrusionz3r0@kali:~$ aws s3 presign s3://mibucketname/hello.txt --expires-in 30
 ```
 
 
-### 
+# AWS Security Token Access
+
+AWS Security Token Service (AWS STS) es un servicio web que le permite solicitar credenciales temporales con privilegios limitados para los usuarios de AWS Identity and Access Management (IAM) o para los usuarios que usted autentica (usuarios federados).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzQxNTMxMiwtMTY1ODQ0MzY2MSwtMT
-QwNzg0MzY0NCwxMzkxNjg4Niw2ODk4ODg4MzAsLTE0NjEzODU3
-MTMsMTA4NzM4NzAzMiwxMDA3MDI1NjU5LDE1MzUwMzMyOTMsND
-E4ODA5MzE5LDQ5ODczOTY4MywxNjczNTkyNDg3LDQxMzc0NTQ2
-MSwxNTM3NDc2MTcxLDE2NjM2NTE5MDYsLTY4NzM3NjUzMywtMT
-Q1OTE0MjUzLDM1ODQ5OTE3OCwxODQ5MTIyMjYzLDE4NDYwNTI2
-MzNdfQ==
+eyJoaXN0b3J5IjpbNjQyNDc0MDc3LC0xNjU4NDQzNjYxLC0xND
+A3ODQzNjQ0LDEzOTE2ODg2LDY4OTg4ODgzMCwtMTQ2MTM4NTcx
+MywxMDg3Mzg3MDMyLDEwMDcwMjU2NTksMTUzNTAzMzI5Myw0MT
+g4MDkzMTksNDk4NzM5NjgzLDE2NzM1OTI0ODcsNDEzNzQ1NDYx
+LDE1Mzc0NzYxNzEsMTY2MzY1MTkwNiwtNjg3Mzc2NTMzLC0xND
+U5MTQyNTMsMzU4NDk5MTc4LDE4NDkxMjIyNjMsMTg0NjA1MjYz
+M119
 -->
