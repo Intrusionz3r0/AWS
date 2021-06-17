@@ -387,16 +387,19 @@ Si ingresas al bucket de origen y elimina un objeto a este se le agrega un marca
 
 # Proteger S3 usando URL predefinidas.
 
+* Puedes acceder a una URL mediante URL Predefinida
+* tipicamente esto se logra mediante SDK pero se puede hacer via AWS CLI
+* El valor predeterminado de la URL es de 1 hora.
 
 ```bash
 Intrusionz3r0@kali:~$ aws s3 presign s3://mibucketname/hello.txt --expires-in 300
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTg0NDM2NjEsLTE0MDc4NDM2NDQsMT
-M5MTY4ODYsNjg5ODg4ODMwLC0xNDYxMzg1NzEzLDEwODczODcw
-MzIsMTAwNzAyNTY1OSwxNTM1MDMzMjkzLDQxODgwOTMxOSw0OT
-g3Mzk2ODMsMTY3MzU5MjQ4Nyw0MTM3NDU0NjEsMTUzNzQ3NjE3
-MSwxNjYzNjUxOTA2LC02ODczNzY1MzMsLTE0NTkxNDI1MywzNT
-g0OTkxNzgsMTg0OTEyMjI2MywxODQ2MDUyNjMzLC01NDMzNjIz
-NDFdfQ==
+eyJoaXN0b3J5IjpbNDcxNTc4NTYzLC0xNjU4NDQzNjYxLC0xND
+A3ODQzNjQ0LDEzOTE2ODg2LDY4OTg4ODgzMCwtMTQ2MTM4NTcx
+MywxMDg3Mzg3MDMyLDEwMDcwMjU2NTksMTUzNTAzMzI5Myw0MT
+g4MDkzMTksNDk4NzM5NjgzLDE2NzM1OTI0ODcsNDEzNzQ1NDYx
+LDE1Mzc0NzYxNzEsMTY2MzY1MTkwNiwtNjg3Mzc2NTMzLC0xND
+U5MTQyNTMsMzU4NDk5MTc4LDE4NDkxMjIyNjMsMTg0NjA1MjYz
+M119
 -->
