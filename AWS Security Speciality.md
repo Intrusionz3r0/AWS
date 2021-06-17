@@ -409,13 +409,13 @@ Un usuario se conecta a una aplicación personalizada esta aplicación usa **Ide
 
 
 **Consejos**
-Siempre lo primero es autenticarse contra algun servicio de tercero como facebook, google o active directory después se autentica contra STS, STS te genera una ficha
+Siempre lo primero es autenticarse contra algun servicio de tercero como facebook, google o active directory después se autentica contra STS, STS te genera una ticket e intenta acceder algun servicio de AWS pero comprueba rapidamente con IAM par
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTM4MDc1Nyw2NDI0NzQwNzcsLTE2NT
-g0NDM2NjEsLTE0MDc4NDM2NDQsMTM5MTY4ODYsNjg5ODg4ODMw
-LC0xNDYxMzg1NzEzLDEwODczODcwMzIsMTAwNzAyNTY1OSwxNT
-M1MDMzMjkzLDQxODgwOTMxOSw0OTg3Mzk2ODMsMTY3MzU5MjQ4
-Nyw0MTM3NDU0NjEsMTUzNzQ3NjE3MSwxNjYzNjUxOTA2LC02OD
-czNzY1MzMsLTE0NTkxNDI1MywzNTg0OTkxNzgsMTg0OTEyMjI2
-M119
+eyJoaXN0b3J5IjpbMTE3Mjk2OTQ0LDY0MjQ3NDA3NywtMTY1OD
+Q0MzY2MSwtMTQwNzg0MzY0NCwxMzkxNjg4Niw2ODk4ODg4MzAs
+LTE0NjEzODU3MTMsMTA4NzM4NzAzMiwxMDA3MDI1NjU5LDE1Mz
+UwMzMyOTMsNDE4ODA5MzE5LDQ5ODczOTY4MywxNjczNTkyNDg3
+LDQxMzc0NTQ2MSwxNTM3NDc2MTcxLDE2NjM2NTE5MDYsLTY4Nz
+M3NjUzMywtMTQ1OTE0MjUzLDM1ODQ5OTE3OCwxODQ5MTIyMjYz
+XX0=
 -->
