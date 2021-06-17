@@ -405,14 +405,14 @@ AWS Security Token Service (AWS STS) es un servicio web que le permite solicitar
 
 ![](https://lh3.googleusercontent.com/NfeC7R649v1HFaVxObmj1lDDNI7N7RBaaj17F6X2gDBoOHsSh-WHrx_mrRZEdfQ6NrhFEulq1l8EufwzW7hQaFR_1Cvs93vRGXUzz1q-n8d-uJkU9747HjWsZsHHL9HCJ8UHhOFh)
 
-Un usuario se conecta a una aplicación personalizada esta aplicación usa **Identity Broker** para comparar el usuario y la contraseña contra algun servicio como (Facebook, Active Directory, Google) si las credenciales son correctas la solicitud se envia al servicio STS par
+Un usuario se conecta a una aplicación personalizada esta aplicación usa **Identity Broker** para comparar el usuario y la contraseña contra algun servicio como (Facebook, Active Directory, Google) si las credenciales son correctas la solicitud se envía al servicio STS para generar un ticket temporal, este lo pasa a tu aplicacion el 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjg4MDMyNDYsNjQyNDc0MDc3LC0xNj
-U4NDQzNjYxLC0xNDA3ODQzNjQ0LDEzOTE2ODg2LDY4OTg4ODgz
-MCwtMTQ2MTM4NTcxMywxMDg3Mzg3MDMyLDEwMDcwMjU2NTksMT
-UzNTAzMzI5Myw0MTg4MDkzMTksNDk4NzM5NjgzLDE2NzM1OTI0
-ODcsNDEzNzQ1NDYxLDE1Mzc0NzYxNzEsMTY2MzY1MTkwNiwtNj
-g3Mzc2NTMzLC0xNDU5MTQyNTMsMzU4NDk5MTc4LDE4NDkxMjIy
-NjNdfQ==
+eyJoaXN0b3J5IjpbNTM4Mzg1MDU1LDY0MjQ3NDA3NywtMTY1OD
+Q0MzY2MSwtMTQwNzg0MzY0NCwxMzkxNjg4Niw2ODk4ODg4MzAs
+LTE0NjEzODU3MTMsMTA4NzM4NzAzMiwxMDA3MDI1NjU5LDE1Mz
+UwMzMyOTMsNDE4ODA5MzE5LDQ5ODczOTY4MywxNjczNTkyNDg3
+LDQxMzc0NTQ2MSwxNTM3NDc2MTcxLDE2NjM2NTE5MDYsLTY4Nz
+M3NjUzMywtMTQ1OTE0MjUzLDM1ODQ5OTE3OCwxODQ5MTIyMjYz
+XX0=
 -->
