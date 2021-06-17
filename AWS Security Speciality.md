@@ -374,9 +374,10 @@ Si ingresas al bucket de origen y elimina un objeto a este se le agrega un marca
 
 
 
+
 ![](https://lh3.googleusercontent.com/2LlDM3iYK5rweSPFBjvWTH8TjkzHfiTLLCTkKO0JwrDz4dNVTWf1lpUXwjLz9fTXLB1ZHL44Yo-B9WG0NkVZ2ZJTz1ma5UwiejlVcbH8czKi2HwkUFwhNnSu0FIRczFTlBa3u57m)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MDUwNjcwMywtMTQ2MTM4NTcxMywxMD
+eyJoaXN0b3J5IjpbLTE5ODk0ODU0MSwtMTQ2MTM4NTcxMywxMD
 g3Mzg3MDMyLDEwMDcwMjU2NTksMTUzNTAzMzI5Myw0MTg4MDkz
 MTksNDk4NzM5NjgzLDE2NzM1OTI0ODcsNDEzNzQ1NDYxLDE1Mz
 c0NzYxNzEsMTY2MzY1MTkwNiwtNjg3Mzc2NTMzLC0xNDU5MTQy
