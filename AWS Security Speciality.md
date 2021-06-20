@@ -442,13 +442,15 @@ Amazon Cognito le permite incorporar de manera rápida y sencilla el registro, i
 * Suele usarse para retención de archivos.
 * Suele ser utilizado para archivas y realizar copias de seguridad a largo plazo
 
+# AWS Organizations
 
+AWS Organizations lo ayuda a administrar y controlar su entorno de manera centralizada a medida que crece y escala sus recursos de AWS. Con AWS Organizations, puede crear de manera programática nuevas cuentas de AWS y asignar recursos, agrupar cuentas para organizar sus flujos de trabajo, aplicar políticas a cuentas o grupos para la gobernanza y simplificar la facturación mediante el uso de un único método de pago para todas sus cuentas.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTI3OTk4NiwxODIzMjkwODU5LDQ0Nj
-UxNDc1NiwxNjg3OTg1MzI1LC0xMjgxNTIyOTY4LDc5MDU3MjI1
-Nyw5NDA2NjQ2NTMsNjQyNDc0MDc3LC0xNjU4NDQzNjYxLC0xND
-A3ODQzNjQ0LDEzOTE2ODg2LDY4OTg4ODgzMCwtMTQ2MTM4NTcx
-MywxMDg3Mzg3MDMyLDEwMDcwMjU2NTksMTUzNTAzMzI5Myw0MT
-g4MDkzMTksNDk4NzM5NjgzLDE2NzM1OTI0ODcsNDEzNzQ1NDYx
-XX0=
+eyJoaXN0b3J5IjpbMTUxNzMyMjE1MCwtNjA5Mjc5OTg2LDE4Mj
+MyOTA4NTksNDQ2NTE0NzU2LDE2ODc5ODUzMjUsLTEyODE1MjI5
+NjgsNzkwNTcyMjU3LDk0MDY2NDY1Myw2NDI0NzQwNzcsLTE2NT
+g0NDM2NjEsLTE0MDc4NDM2NDQsMTM5MTY4ODYsNjg5ODg4ODMw
+LC0xNDYxMzg1NzEzLDEwODczODcwMzIsMTAwNzAyNTY1OSwxNT
+M1MDMzMjkzLDQxODgwOTMxOSw0OTg3Mzk2ODMsMTY3MzU5MjQ4
+N119
 -->
