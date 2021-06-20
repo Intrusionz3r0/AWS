@@ -454,15 +454,14 @@ Se utiliza una política de control de servicios para controlar de forma central
 * Es como un filtro que restringe el acceso a los servicios.
 *  Puede ser usado para crear Permissions Boundary.
 * Permite crear **Permissions boundary** y restringir los permisos a las cuentas hijas incluyendo a la cuenta root-
-
 * Restrige las acciones a los usuarios, grupos, roles e incluso la cuenta root.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0NjAyOTYwLC02MDkyNzk5ODYsMTgyMz
-I5MDg1OSw0NDY1MTQ3NTYsMTY4Nzk4NTMyNSwtMTI4MTUyMjk2
-OCw3OTA1NzIyNTcsOTQwNjY0NjUzLDY0MjQ3NDA3NywtMTY1OD
-Q0MzY2MSwtMTQwNzg0MzY0NCwxMzkxNjg4Niw2ODk4ODg4MzAs
-LTE0NjEzODU3MTMsMTA4NzM4NzAzMiwxMDA3MDI1NjU5LDE1Mz
-UwMzMyOTMsNDE4ODA5MzE5LDQ5ODczOTY4MywxNjczNTkyNDg3
-XX0=
+eyJoaXN0b3J5IjpbMTM0NTQyNzAwNiwtNjA5Mjc5OTg2LDE4Mj
+MyOTA4NTksNDQ2NTE0NzU2LDE2ODc5ODUzMjUsLTEyODE1MjI5
+NjgsNzkwNTcyMjU3LDk0MDY2NDY1Myw2NDI0NzQwNzcsLTE2NT
+g0NDM2NjEsLTE0MDc4NDM2NDQsMTM5MTY4ODYsNjg5ODg4ODMw
+LC0xNDYxMzg1NzEzLDEwODczODcwMzIsMTAwNzAyNTY1OSwxNT
+M1MDMzMjkzLDQxODgwOTMxOSw0OTg3Mzk2ODMsMTY3MzU5MjQ4
+N119
 -->
