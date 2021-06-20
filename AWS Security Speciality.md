@@ -451,9 +451,13 @@ AWS Organizations lo ayuda a administrar y controlar su entorno de manera centra
 **Service Control Policy**
 Se utiliza una política de control de servicios para controlar de forma centralizada el uso de los servicios de AWS en múltiples cuentas.
 
+* Es como un filtro que restringe el acceso a los servicios.
+* El SCP se aplica a todos los OUs y cuentas secundarias a las cuales estan attachada.
+* Puede ser usado para crear Permissions Boundary.
+* Restrige las acciones a los usuarios, grupos, roles e incluso la cuenta root.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMzEwNDQxOSwtNjA5Mjc5OTg2LDE4Mj
+eyJoaXN0b3J5IjpbMTY2NDYyNjc2OSwtNjA5Mjc5OTg2LDE4Mj
 MyOTA4NTksNDQ2NTE0NzU2LDE2ODc5ODUzMjUsLTEyODE1MjI5
 NjgsNzkwNTcyMjU3LDk0MDY2NDY1Myw2NDI0NzQwNzcsLTE2NT
 g0NDM2NjEsLTE0MDc4NDM2NDQsMTM5MTY4ODYsNjg5ODg4ODMw
