@@ -422,6 +422,7 @@ AWS Identity and Access Management (IAM) enables you to manage access to AWS ser
 
 * The AWS STS API  `AssumeRoleWithWebIdentity`  supports Web ID Federation.
 
+**GetFederationToken:** Devuelve un conjunto de credenciales de seguridad temporales (que consta de un ID de clave de acceso, una clave de acceso secreta y un token de seguridad) para un usuario federado
 
 # Cognito - Web Identity Federation
 
@@ -491,11 +492,11 @@ intrusionz3r0@kali:~$ aws iam generate-credential-report
 intrusionz3r0@kali:~$ aws iam get-credential-report
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcwNzkwMDQyLDU5MzYxMTA1MSwtNTMzOT
-MwMzQ1LDE2MjY0ODI2ODEsNjQ1Njg2Nzg1LC01NzE3ODUxNDMs
-MTM0NTQyNzAwNiwtNjA5Mjc5OTg2LDE4MjMyOTA4NTksNDQ2NT
-E0NzU2LDE2ODc5ODUzMjUsLTEyODE1MjI5NjgsNzkwNTcyMjU3
-LDk0MDY2NDY1Myw2NDI0NzQwNzcsLTE2NTg0NDM2NjEsLTE0MD
-c4NDM2NDQsMTM5MTY4ODYsNjg5ODg4ODMwLC0xNDYxMzg1NzEz
+eyJoaXN0b3J5IjpbLTExNTI2MzM0OTcsOTcwNzkwMDQyLDU5Mz
+YxMTA1MSwtNTMzOTMwMzQ1LDE2MjY0ODI2ODEsNjQ1Njg2Nzg1
+LC01NzE3ODUxNDMsMTM0NTQyNzAwNiwtNjA5Mjc5OTg2LDE4Mj
+MyOTA4NTksNDQ2NTE0NzU2LDE2ODc5ODUzMjUsLTEyODE1MjI5
+NjgsNzkwNTcyMjU3LDk0MDY2NDY1Myw2NDI0NzQwNzcsLTE2NT
+g0NDM2NjEsLTE0MDc4NDM2NDQsMTM5MTY4ODYsNjg5ODg4ODMw
 XX0=
 -->
