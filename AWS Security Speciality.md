@@ -411,14 +411,16 @@ Un usuario se conecta a una aplicación personalizada esta aplicación usa **Ide
 **Consejos**
 Siempre lo primero es autenticarse contra algun servicio de tercero como facebook, google o active directory después se autentica contra STS, STS te genera una ticket e intenta acceder algun servicio de AWS pero comprueba rápidamente con IAM para validar el ticket y si todo sale bien entonces te permite acceder al servicio.
 
+AWS Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources. This includes Identity Federation with SAML 2 compliant Identity Providers like Active Directory and Web Identity providers like Facebook, Google and Amazon.com.
 
-Correct. The AWS STS API  `AssumeRoleWithSAML`  supports Azure AD Federation. Reference:  [Comparing the AWS STS API operations](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html#stsapi_comparison "null")
 
-Correct. The AWS STS API  `AssumeRoleWithSAML`  supports Active Directory Federation. Reference:  [Comparing the AWS STS API operations](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html#stsapi_comparison "null")
+* The AWS STS API  `AssumeRoleWithSAML`  supports Azure AD Federatio
 
-Correct. The AWS STS API  `AssumeRole`  supports Cross Account Access. Reference:  [Comparing the AWS STS API operations](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html#stsapi_comparison "null")
+* The AWS STS API  `AssumeRoleWithSAML`  supports Active Directory Federation.
 
-Correct. The AWS STS API  `AssumeRoleWithWebIdentity`  supports Web ID Federation. Reference:  [Comparing the AWS STS API operations](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html#stsapi_comparison "null")
+* The AWS STS API  `AssumeRole`  supports Cross Account Access.
+
+* The AWS STS API  `AssumeRoleWithWebIdentity`  supports Web ID Federation.
 
 
 # Cognito - Web Identity Federation
@@ -489,11 +491,11 @@ intrusionz3r0@kali:~$ aws iam generate-credential-report
 intrusionz3r0@kali:~$ aws iam get-credential-report
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkzNjExMDUxLC01MzM5MzAzNDUsMTYyNj
-Q4MjY4MSw2NDU2ODY3ODUsLTU3MTc4NTE0MywxMzQ1NDI3MDA2
-LC02MDkyNzk5ODYsMTgyMzI5MDg1OSw0NDY1MTQ3NTYsMTY4Nz
-k4NTMyNSwtMTI4MTUyMjk2OCw3OTA1NzIyNTcsOTQwNjY0NjUz
-LDY0MjQ3NDA3NywtMTY1ODQ0MzY2MSwtMTQwNzg0MzY0NCwxMz
-kxNjg4Niw2ODk4ODg4MzAsLTE0NjEzODU3MTMsMTA4NzM4NzAz
-Ml19
+eyJoaXN0b3J5IjpbOTcwNzkwMDQyLDU5MzYxMTA1MSwtNTMzOT
+MwMzQ1LDE2MjY0ODI2ODEsNjQ1Njg2Nzg1LC01NzE3ODUxNDMs
+MTM0NTQyNzAwNiwtNjA5Mjc5OTg2LDE4MjMyOTA4NTksNDQ2NT
+E0NzU2LDE2ODc5ODUzMjUsLTEyODE1MjI5NjgsNzkwNTcyMjU3
+LDk0MDY2NDY1Myw2NDI0NzQwNzcsLTE2NTg0NDM2NjEsLTE0MD
+c4NDM2NDQsMTM5MTY4ODYsNjg5ODg4ODMwLC0xNDYxMzg1NzEz
+XX0=
 -->
