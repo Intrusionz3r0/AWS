@@ -451,6 +451,9 @@ AWS Organizations lo ayuda a administrar y controlar su entorno de manera centra
 **Service Control Policy**
 Se utiliza una política de control de servicios para controlar de forma centralizada el uso de los servicios de AWS en múltiples cuentas.
 
+Los SCP por sí solos no son suficientes para otorgar permisos a las cuentas de su organización. Un SCP no otorga permisos. Un SCP define una barrera de seguridad, o establece límites, sobre las acciones que el administrador de la cuenta puede delegar a los usuarios y roles de IAM en las cuentas afectadas. El administrador aún debe adjuntar políticas basadas en la identidad o en los recursos a los usuarios o roles de IAM, o a los recursos de sus cuentas para otorgar permisos. Los permisos efectivos son la intersección lógica entre lo que permite el SCP y lo que permite IAM y las políticas basadas en recursos.
+
+Las políticas de control de servicios (SCP) le permiten controlar qué acciones de servicio de AWS son accesibles para los principales (raíz de la cuenta, usuarios de IAM y roles de IAM) en las cuentas de su organización. Un SCP no es el único control que determina qué principales de una cuenta pueden acceder a los recursos para otorgar acceso a los recursos a los principales de una cuenta.
 
 
 * Es como un filtro que restringe el acceso a los servicios.
@@ -478,11 +481,11 @@ intrusionz3r0@kali:~$ aws iam generate-credential-report
 intrusionz3r0@kali:~$ aws iam get-credential-report
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODM5ODYzNDcsMTYyNjQ4MjY4MSw2ND
-U2ODY3ODUsLTU3MTc4NTE0MywxMzQ1NDI3MDA2LC02MDkyNzk5
-ODYsMTgyMzI5MDg1OSw0NDY1MTQ3NTYsMTY4Nzk4NTMyNSwtMT
-I4MTUyMjk2OCw3OTA1NzIyNTcsOTQwNjY0NjUzLDY0MjQ3NDA3
-NywtMTY1ODQ0MzY2MSwtMTQwNzg0MzY0NCwxMzkxNjg4Niw2OD
-k4ODg4MzAsLTE0NjEzODU3MTMsMTA4NzM4NzAzMiwxMDA3MDI1
-NjU5XX0=
+eyJoaXN0b3J5IjpbLTUzMzkzMDM0NSwxNjI2NDgyNjgxLDY0NT
+Y4Njc4NSwtNTcxNzg1MTQzLDEzNDU0MjcwMDYsLTYwOTI3OTk4
+NiwxODIzMjkwODU5LDQ0NjUxNDc1NiwxNjg3OTg1MzI1LC0xMj
+gxNTIyOTY4LDc5MDU3MjI1Nyw5NDA2NjQ2NTMsNjQyNDc0MDc3
+LC0xNjU4NDQzNjYxLC0xNDA3ODQzNjQ0LDEzOTE2ODg2LDY4OT
+g4ODgzMCwtMTQ2MTM4NTcxMywxMDg3Mzg3MDMyLDEwMDcwMjU2
+NTldfQ==
 -->
