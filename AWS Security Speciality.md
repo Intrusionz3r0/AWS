@@ -376,6 +376,8 @@ Si ingresas al bucket de origen y elimina un objeto a este se le agrega un marca
 3.- Crear una nueva identidad o usar una identidad existente. **Origin Access Identity**
 4.- Conceder permisos de lectura en el bucket.
 
+Cree una identidad de acceso de origen, que es un usuario especial de CloudFront, asocie la identidad de acceso de origen con su distribución. Cambie los permisos en su bucket de Amazon S3 o en los archivos en su bucket para que solo la identidad de acceso de origen tenga permiso de lectura (o permiso de lectura y descarga). Cuando sus usuarios acceden a sus archivos de Amazon S3 a través de CloudFront, la identidad de acceso de origen de CloudFront obtiene los archivos en nombre de sus usuarios. Si sus usuarios solicitan archivos directamente mediante URL de Amazon S3, se les niega el acceso.
+
 
 ![](https://lh5.googleusercontent.com/TpYi-Mb9XNVWzkdbayDcpFUR7Ev5UykhZK83fPOBqSzZ-PO7RUOio2sclvMcmLg0M10HWUoBVE1x6Q82-5W5EhsgQPdavoYLDbBmeHPWH_0V9c0ZL5aa_pJRsz2NHOitYDwkYEkI)
 
@@ -494,11 +496,11 @@ intrusionz3r0@kali:~$ aws iam generate-credential-report
 intrusionz3r0@kali:~$ aws iam get-credential-report
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDU3MzYyMTcsOTcwNzkwMDQyLDU5Mz
-YxMTA1MSwtNTMzOTMwMzQ1LDE2MjY0ODI2ODEsNjQ1Njg2Nzg1
-LC01NzE3ODUxNDMsMTM0NTQyNzAwNiwtNjA5Mjc5OTg2LDE4Mj
-MyOTA4NTksNDQ2NTE0NzU2LDE2ODc5ODUzMjUsLTEyODE1MjI5
-NjgsNzkwNTcyMjU3LDk0MDY2NDY1Myw2NDI0NzQwNzcsLTE2NT
-g0NDM2NjEsLTE0MDc4NDM2NDQsMTM5MTY4ODYsNjg5ODg4ODMw
-XX0=
+eyJoaXN0b3J5IjpbLTEwMjg4ODk5OTMsLTIwMDU3MzYyMTcsOT
+cwNzkwMDQyLDU5MzYxMTA1MSwtNTMzOTMwMzQ1LDE2MjY0ODI2
+ODEsNjQ1Njg2Nzg1LC01NzE3ODUxNDMsMTM0NTQyNzAwNiwtNj
+A5Mjc5OTg2LDE4MjMyOTA4NTksNDQ2NTE0NzU2LDE2ODc5ODUz
+MjUsLTEyODE1MjI5NjgsNzkwNTcyMjU3LDk0MDY2NDY1Myw2ND
+I0NzQwNzcsLTE2NTg0NDM2NjEsLTE0MDc4NDM2NDQsMTM5MTY4
+ODZdfQ==
 -->
