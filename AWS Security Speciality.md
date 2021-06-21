@@ -412,6 +412,14 @@ Un usuario se conecta a una aplicación personalizada esta aplicación usa **Ide
 Siempre lo primero es autenticarse contra algun servicio de tercero como facebook, google o active directory después se autentica contra STS, STS te genera una ticket e intenta acceder algun servicio de AWS pero comprueba rápidamente con IAM para validar el ticket y si todo sale bien entonces te permite acceder al servicio.
 
 
+Correct. The AWS STS API  `AssumeRoleWithSAML`  supports Azure AD Federation. Reference:  [Comparing the AWS STS API operations](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html#stsapi_comparison "null")
+
+Correct. The AWS STS API  `AssumeRoleWithSAML`  supports Active Directory Federation. Reference:  [Comparing the AWS STS API operations](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html#stsapi_comparison "null")
+
+Correct. The AWS STS API  `AssumeRole`  supports Cross Account Access. Reference:  [Comparing the AWS STS API operations](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html#stsapi_comparison "null")
+
+Correct. The AWS STS API  `AssumeRoleWithWebIdentity`  supports Web ID Federation. Reference:  [Comparing the AWS STS API operations](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_request.html#stsapi_comparison "null")
+
 
 # Cognito - Web Identity Federation
 
@@ -481,11 +489,11 @@ intrusionz3r0@kali:~$ aws iam generate-credential-report
 intrusionz3r0@kali:~$ aws iam get-credential-report
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzkzMDM0NSwxNjI2NDgyNjgxLDY0NT
-Y4Njc4NSwtNTcxNzg1MTQzLDEzNDU0MjcwMDYsLTYwOTI3OTk4
-NiwxODIzMjkwODU5LDQ0NjUxNDc1NiwxNjg3OTg1MzI1LC0xMj
-gxNTIyOTY4LDc5MDU3MjI1Nyw5NDA2NjQ2NTMsNjQyNDc0MDc3
-LC0xNjU4NDQzNjYxLC0xNDA3ODQzNjQ0LDEzOTE2ODg2LDY4OT
-g4ODgzMCwtMTQ2MTM4NTcxMywxMDg3Mzg3MDMyLDEwMDcwMjU2
-NTldfQ==
+eyJoaXN0b3J5IjpbNTkzNjExMDUxLC01MzM5MzAzNDUsMTYyNj
+Q4MjY4MSw2NDU2ODY3ODUsLTU3MTc4NTE0MywxMzQ1NDI3MDA2
+LC02MDkyNzk5ODYsMTgyMzI5MDg1OSw0NDY1MTQ3NTYsMTY4Nz
+k4NTMyNSwtMTI4MTUyMjk2OCw3OTA1NzIyNTcsOTQwNjY0NjUz
+LDY0MjQ3NDA3NywtMTY1ODQ0MzY2MSwtMTQwNzg0MzY0NCwxMz
+kxNjg4Niw2ODk4ODg4MzAsLTE0NjEzODU3MTMsMTA4NzM4NzAz
+Ml19
 -->
