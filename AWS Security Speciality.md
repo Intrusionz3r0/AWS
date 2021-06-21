@@ -457,6 +457,10 @@ Se utiliza una política de control de servicios para controlar de forma central
 * Restrige las acciones a los usuarios, grupos, roles e incluso la cuenta root.
 
 
+**Permissions boundary** es una función avanzada en la que se usa una política administrada para establecer los permisos máximos que una **Service Control Policy** puede otorgar a una entidad de IAM. Cuando establece un límite de permisos para una entidad, la entidad puede realizar solo las acciones que están permitidas tanto por sus políticas basadas en identidad como por sus límites de permisos.
+
+
+
 # AWS Credentials Report
 
 Lista todos los usuarios en la cuenta de AWS y muestra el estatus de sus credenciales, incluyendo contraseñas, llaves de acceso y estatus de MFA.
@@ -472,11 +476,11 @@ intrusionz3r0@kali:~$ aws iam generate-credential-report
 intrusionz3r0@kali:~$ aws iam get-credential-report
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTc4NTE0MywxMzQ1NDI3MDA2LC02MD
-kyNzk5ODYsMTgyMzI5MDg1OSw0NDY1MTQ3NTYsMTY4Nzk4NTMy
-NSwtMTI4MTUyMjk2OCw3OTA1NzIyNTcsOTQwNjY0NjUzLDY0Mj
-Q3NDA3NywtMTY1ODQ0MzY2MSwtMTQwNzg0MzY0NCwxMzkxNjg4
-Niw2ODk4ODg4MzAsLTE0NjEzODU3MTMsMTA4NzM4NzAzMiwxMD
-A3MDI1NjU5LDE1MzUwMzMyOTMsNDE4ODA5MzE5LDQ5ODczOTY4
-M119
+eyJoaXN0b3J5IjpbNjQ1Njg2Nzg1LC01NzE3ODUxNDMsMTM0NT
+QyNzAwNiwtNjA5Mjc5OTg2LDE4MjMyOTA4NTksNDQ2NTE0NzU2
+LDE2ODc5ODUzMjUsLTEyODE1MjI5NjgsNzkwNTcyMjU3LDk0MD
+Y2NDY1Myw2NDI0NzQwNzcsLTE2NTg0NDM2NjEsLTE0MDc4NDM2
+NDQsMTM5MTY4ODYsNjg5ODg4ODMwLC0xNDYxMzg1NzEzLDEwOD
+czODcwMzIsMTAwNzAyNTY1OSwxNTM1MDMzMjkzLDQxODgwOTMx
+OV19
 -->
