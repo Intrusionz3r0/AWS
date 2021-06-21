@@ -451,6 +451,8 @@ AWS Organizations lo ayuda a administrar y controlar su entorno de manera centra
 **Service Control Policy**
 Se utiliza una política de control de servicios para controlar de forma centralizada el uso de los servicios de AWS en múltiples cuentas.
 
+
+
 * Es como un filtro que restringe el acceso a los servicios.
 *  Puede ser usado para crear Permissions Boundary.
 * Permite crear **Permissions boundary** y restringir los permisos a las cuentas hijas incluyendo a la cuenta root-
@@ -476,11 +478,11 @@ intrusionz3r0@kali:~$ aws iam generate-credential-report
 intrusionz3r0@kali:~$ aws iam get-credential-report
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjQ4MjY4MSw2NDU2ODY3ODUsLTU3MT
-c4NTE0MywxMzQ1NDI3MDA2LC02MDkyNzk5ODYsMTgyMzI5MDg1
-OSw0NDY1MTQ3NTYsMTY4Nzk4NTMyNSwtMTI4MTUyMjk2OCw3OT
-A1NzIyNTcsOTQwNjY0NjUzLDY0MjQ3NDA3NywtMTY1ODQ0MzY2
-MSwtMTQwNzg0MzY0NCwxMzkxNjg4Niw2ODk4ODg4MzAsLTE0Nj
-EzODU3MTMsMTA4NzM4NzAzMiwxMDA3MDI1NjU5LDE1MzUwMzMy
-OTNdfQ==
+eyJoaXN0b3J5IjpbLTExODM5ODYzNDcsMTYyNjQ4MjY4MSw2ND
+U2ODY3ODUsLTU3MTc4NTE0MywxMzQ1NDI3MDA2LC02MDkyNzk5
+ODYsMTgyMzI5MDg1OSw0NDY1MTQ3NTYsMTY4Nzk4NTMyNSwtMT
+I4MTUyMjk2OCw3OTA1NzIyNTcsOTQwNjY0NjUzLDY0MjQ3NDA3
+NywtMTY1ODQ0MzY2MSwtMTQwNzg0MzY0NCwxMzkxNjg4Niw2OD
+k4ODg4MzAsLTE0NjEzODU3MTMsMTA4NzM4NzAzMiwxMDA3MDI1
+NjU5XX0=
 -->
