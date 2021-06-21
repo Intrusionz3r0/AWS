@@ -380,7 +380,7 @@ Si ingresas al bucket de origen y elimina un objeto a este se le agrega un marca
 ![](https://lh5.googleusercontent.com/TpYi-Mb9XNVWzkdbayDcpFUR7Ev5UykhZK83fPOBqSzZ-PO7RUOio2sclvMcmLg0M10HWUoBVE1x6Q82-5W5EhsgQPdavoYLDbBmeHPWH_0V9c0ZL5aa_pJRsz2NHOitYDwkYEkI)
 
 * SI deseas usar *.cloudfront.net como nombre de domino debes usar **Default CloudFront Certificate**.
-* Si deseas usar tu propio nombre de dominio personalizado debes usar **Custom SSL Certificate**.
+* Debe utilizar **custom certificate** si desea utilizar su propio nombre de dominio. El certificado puede almacenarse en IAM o en ACM. Para utilizar un certificado de ACM con Amazon CloudFront, debe solicitar o importar el certificado en la región de EE.UU.Este (Norte de Virginia) **us-east-1**. 
 * Si usas ACM tu certificado debe ser almacenado en la región de virginia us-east-1 para que **CloudFront** lo use.
 * Tambien puedes almacenar tu certificado dentro de **IAM**  usando de IAM CLI.
 
@@ -494,7 +494,7 @@ intrusionz3r0@kali:~$ aws iam generate-credential-report
 intrusionz3r0@kali:~$ aws iam get-credential-report
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTU3NzMzNDEsOTcwNzkwMDQyLDU5Mz
+eyJoaXN0b3J5IjpbLTIwMDU3MzYyMTcsOTcwNzkwMDQyLDU5Mz
 YxMTA1MSwtNTMzOTMwMzQ1LDE2MjY0ODI2ODEsNjQ1Njg2Nzg1
 LC01NzE3ODUxNDMsMTM0NTQyNzAwNiwtNjA5Mjc5OTg2LDE4Mj
 MyOTA4NTksNDQ2NTE0NzU2LDE2ODc5ODUzMjUsLTEyODE1MjI5
