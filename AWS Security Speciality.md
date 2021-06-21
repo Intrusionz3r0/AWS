@@ -413,6 +413,8 @@ Siempre lo primero es autenticarse contra algun servicio de tercero como faceboo
 
 AWS Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources. This includes Identity Federation with SAML 2 compliant Identity Providers like Active Directory and Web Identity providers like Facebook, Google and Amazon.com.
 
+**GetFederationToken:** Devuelve un conjunto de credenciales de seguridad temporales (que consta de un ID de clave de acceso, una clave de acceso secreta y un token de seguridad) para un usuario federado
+
 
 * The AWS STS API  `AssumeRoleWithSAML`  supports Azure AD Federatio
 
@@ -422,7 +424,7 @@ AWS Identity and Access Management (IAM) enables you to manage access to AWS ser
 
 * The AWS STS API  `AssumeRoleWithWebIdentity`  supports Web ID Federation.
 
-**GetFederationToken:** Devuelve un conjunto de credenciales de seguridad temporales (que consta de un ID de clave de acceso, una clave de acceso secreta y un token de seguridad) para un usuario federado
+
 
 # Cognito - Web Identity Federation
 
@@ -492,7 +494,7 @@ intrusionz3r0@kali:~$ aws iam generate-credential-report
 intrusionz3r0@kali:~$ aws iam get-credential-report
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTI2MzM0OTcsOTcwNzkwMDQyLDU5Mz
+eyJoaXN0b3J5IjpbLTE0MTU3NzMzNDEsOTcwNzkwMDQyLDU5Mz
 YxMTA1MSwtNTMzOTMwMzQ1LDE2MjY0ODI2ODEsNjQ1Njg2Nzg1
 LC01NzE3ODUxNDMsMTM0NTQyNzAwNiwtNjA5Mjc5OTg2LDE4Mj
 MyOTA4NTksNDQ2NTE0NzU2LDE2ODc5ODUzMjUsLTEyODE1MjI5
