@@ -480,6 +480,7 @@ Las políticas de control de servicios (SCP) le permiten controlar qué acciones
 **Permissions boundary** es una función avanzada en la que se usa una política administrada para establecer los permisos máximos que una **Service Control Policy** puede otorgar a una entidad de IAM. Cuando establece un límite de permisos para una entidad, la entidad puede realizar solo las acciones que están permitidas tanto por sus políticas basadas en identidad como por sus límites de permisos.
 
 
+**[!]** [Permissions boundaries](https://docs.aws.amazon.com/es_es/IAM/latest/UserGuide/access_policies_boundaries.html)
 
 # AWS Credentials Report
 
@@ -496,11 +497,11 @@ intrusionz3r0@kali:~$ aws iam generate-credential-report
 intrusionz3r0@kali:~$ aws iam get-credential-report
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjg4ODk5OTMsLTIwMDU3MzYyMTcsOT
-cwNzkwMDQyLDU5MzYxMTA1MSwtNTMzOTMwMzQ1LDE2MjY0ODI2
-ODEsNjQ1Njg2Nzg1LC01NzE3ODUxNDMsMTM0NTQyNzAwNiwtNj
-A5Mjc5OTg2LDE4MjMyOTA4NTksNDQ2NTE0NzU2LDE2ODc5ODUz
-MjUsLTEyODE1MjI5NjgsNzkwNTcyMjU3LDk0MDY2NDY1Myw2ND
-I0NzQwNzcsLTE2NTg0NDM2NjEsLTE0MDc4NDM2NDQsMTM5MTY4
-ODZdfQ==
+eyJoaXN0b3J5IjpbLTc5NjEyMDMzOSwtMTAyODg4OTk5MywtMj
+AwNTczNjIxNyw5NzA3OTAwNDIsNTkzNjExMDUxLC01MzM5MzAz
+NDUsMTYyNjQ4MjY4MSw2NDU2ODY3ODUsLTU3MTc4NTE0MywxMz
+Q1NDI3MDA2LC02MDkyNzk5ODYsMTgyMzI5MDg1OSw0NDY1MTQ3
+NTYsMTY4Nzk4NTMyNSwtMTI4MTUyMjk2OCw3OTA1NzIyNTcsOT
+QwNjY0NjUzLDY0MjQ3NDA3NywtMTY1ODQ0MzY2MSwtMTQwNzg0
+MzY0NF19
 -->
