@@ -333,7 +333,7 @@ Con la replicación es posible copiar objetos entre buckets de Amazon S3 de form
 ### Requisitos
 
 * El bucket de origen y destino deben tener el control de versiones activado.
-* El bucket de origen y destino deben estar en diferentes regiones de aws.
+* El bucket de origen y destino deben estar en diferentes regiones de aws. (opcional)
 * S3 debe tener permisos para replicar objetos desde el bucket origen a el bucket destino en su nombre
 * **[!]** Si el propietario del bucket tambien es propietario del objeto, el propietario del bucket tiene todos los permisos para replicar el objeto, si no, el propietario del objeto debe otorgar permisos al propietario del bucket de **Read** y **READ_ACP** via ACL object.
 * El rol de IAM debe tener los permisos suficientes para replicar los objetos en el bucket destino.
@@ -476,11 +476,11 @@ intrusionz3r0@kali:~$ aws iam generate-credential-report
 intrusionz3r0@kali:~$ aws iam get-credential-report
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ1Njg2Nzg1LC01NzE3ODUxNDMsMTM0NT
-QyNzAwNiwtNjA5Mjc5OTg2LDE4MjMyOTA4NTksNDQ2NTE0NzU2
-LDE2ODc5ODUzMjUsLTEyODE1MjI5NjgsNzkwNTcyMjU3LDk0MD
-Y2NDY1Myw2NDI0NzQwNzcsLTE2NTg0NDM2NjEsLTE0MDc4NDM2
-NDQsMTM5MTY4ODYsNjg5ODg4ODMwLC0xNDYxMzg1NzEzLDEwOD
-czODcwMzIsMTAwNzAyNTY1OSwxNTM1MDMzMjkzLDQxODgwOTMx
-OV19
+eyJoaXN0b3J5IjpbMTYyNjQ4MjY4MSw2NDU2ODY3ODUsLTU3MT
+c4NTE0MywxMzQ1NDI3MDA2LC02MDkyNzk5ODYsMTgyMzI5MDg1
+OSw0NDY1MTQ3NTYsMTY4Nzk4NTMyNSwtMTI4MTUyMjk2OCw3OT
+A1NzIyNTcsOTQwNjY0NjUzLDY0MjQ3NDA3NywtMTY1ODQ0MzY2
+MSwtMTQwNzg0MzY0NCwxMzkxNjg4Niw2ODk4ODg4MzAsLTE0Nj
+EzODU3MTMsMTA4NzM4NzAzMiwxMDA3MDI1NjU5LDE1MzUwMzMy
+OTNdfQ==
 -->
