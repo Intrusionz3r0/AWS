@@ -457,14 +457,22 @@ Se utiliza una política de control de servicios para controlar de forma central
 * Restrige las acciones a los usuarios, grupos, roles e incluso la cuenta root.
 
 
-# AWS credentials report
+# AWS Credentials Report
 
-Lista todos os usuarios en tu cuenta y muestra el estatus de sus credenciales, incluyendo contraseñas, llaves de acceso y estatus de MFA.
+Lista todos los usuarios en la cuenta de AWS y muestra el estatus de sus credenciales, incluyendo contraseñas, llaves de acceso y estatus de MFA.
 
-````
+
+
+
+
+**Comandos para generar y descargar el reporte de credenciales:**
+
+```bash
+intrusionz3r0@kali:~$ aws iam generate-credential-report
+intrusionz3r0@kali:~$ aws iam get-credential-report
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODY1NDIwMiwxMzQ1NDI3MDA2LC02MD
+eyJoaXN0b3J5IjpbLTU3MTc4NTE0MywxMzQ1NDI3MDA2LC02MD
 kyNzk5ODYsMTgyMzI5MDg1OSw0NDY1MTQ3NTYsMTY4Nzk4NTMy
 NSwtMTI4MTUyMjk2OCw3OTA1NzIyNTcsOTQwNjY0NjUzLDY0Mj
 Q3NDA3NywtMTY1ODQ0MzY2MSwtMTQwNzg0MzY0NCwxMzkxNjg4
