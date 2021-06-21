@@ -456,12 +456,19 @@ Se utiliza una política de control de servicios para controlar de forma central
 * Permite crear **Permissions boundary** y restringir los permisos a las cuentas hijas incluyendo a la cuenta root-
 * Restrige las acciones a los usuarios, grupos, roles e incluso la cuenta root.
 
+
+# AWS credentials report
+
+Lista todos os usuarios en tu cuenta y muestra el estatus de sus credenciales, incluyendo contraseñas, llaves de acceso y estatus de MFA.
+
+````
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NTQyNzAwNiwtNjA5Mjc5OTg2LDE4Mj
-MyOTA4NTksNDQ2NTE0NzU2LDE2ODc5ODUzMjUsLTEyODE1MjI5
-NjgsNzkwNTcyMjU3LDk0MDY2NDY1Myw2NDI0NzQwNzcsLTE2NT
-g0NDM2NjEsLTE0MDc4NDM2NDQsMTM5MTY4ODYsNjg5ODg4ODMw
-LC0xNDYxMzg1NzEzLDEwODczODcwMzIsMTAwNzAyNTY1OSwxNT
-M1MDMzMjkzLDQxODgwOTMxOSw0OTg3Mzk2ODMsMTY3MzU5MjQ4
-N119
+eyJoaXN0b3J5IjpbLTY0ODY1NDIwMiwxMzQ1NDI3MDA2LC02MD
+kyNzk5ODYsMTgyMzI5MDg1OSw0NDY1MTQ3NTYsMTY4Nzk4NTMy
+NSwtMTI4MTUyMjk2OCw3OTA1NzIyNTcsOTQwNjY0NjUzLDY0Mj
+Q3NDA3NywtMTY1ODQ0MzY2MSwtMTQwNzg0MzY0NCwxMzkxNjg4
+Niw2ODk4ODg4MzAsLTE0NjEzODU3MTMsMTA4NzM4NzAzMiwxMD
+A3MDI1NjU5LDE1MzUwMzMyOTMsNDE4ODA5MzE5LDQ5ODczOTY4
+M119
 -->
