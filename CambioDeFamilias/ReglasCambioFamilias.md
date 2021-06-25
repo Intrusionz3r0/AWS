@@ -7,6 +7,7 @@
 
 
  [Instancias de generación anterior.](https://aws.amazon.com/ec2/previous-generation/)
+ 
  [Instancias de última generación.](https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/instance-types.html#current-gen-instances)
  
 
