@@ -57,7 +57,6 @@ Get-ItemProperty HKLM:\SOFTWARE\Amazon\PVDriver
 Actualice al controlador del Adaptador de red elástico más reciente para asegurarse de que todas las funciones de red sean compatibles. Si lanzó su instancia y no tiene la red mejorada habilitada, debe descargar e instalar el controlador del adaptador de red requerido en su instancia.
 
 * Todos los tipos de instancias de la generación actual admiten redes mejoradas, excepto las instancias T2.
-* Las instancias de la generación actual usan ENA para redes mejoradas, excepto para las instancias C4, D2 y **M4** más pequeñas que `m4.16xlarge`.
 
  * **[!] Importante** Debe usar PowerShell versión 3.0 o posterior para realizar correctamente la actualización (**As a Administrador**).
  
