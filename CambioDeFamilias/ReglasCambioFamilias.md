@@ -21,7 +21,7 @@
 
 * Los siguientes procedimientos de migración se pueden realizar en Windows Server versión 2008 R2 y posteriores.
 
-* **[!] Importante** Antes de seguir los pasos de este procedimiento, le recomendamos que cree una copia de seguridad de la instancia.
+* **[!] Importante** Se recomienda crear una copia de seguridad de la instancia (**AMI**).
 
 
 
