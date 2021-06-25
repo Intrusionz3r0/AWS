@@ -1,20 +1,31 @@
-#  Migrar de instancias de generación anterior a instancias de última generación.
+#  Reglas para cambios de familia.
 
 ![enter image description here](https://www.programaenlinea.net/wp-content/uploads/2020/12/aws.jpg)
 
 
-**Tipos de instacias:**
+### Reglas
+
+ 1. Al migrar a instancias basadas en Nitro.
+ 2. Migrar de generación anterior a última generación.
+
+### **Tipos de instacias:**
+
+*  [Instancias de generación anterior.](https://aws.amazon.com/ec2/previous-generation/)
+ 
+*  [Instancias de última generación.](https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/instance-types.html#current-gen-instances)
 
 
- [Instancias de generación anterior.](https://aws.amazon.com/ec2/previous-generation/)
- 
- [Instancias de última generación.](https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/instance-types.html#current-gen-instances)
- 
+### Aspectos a tomar en cuenta:
+
+* Al migrar a las instancias de última generación, es posible que se pierda la IP estática o la configuración de red DNS personalizada en el ENI existente, ya que la instancia se utilizará de forma predeterminada en un nuevo dispositivo Adaptador de red mejorado. 
 
 * Los siguientes procedimientos de migración se pueden realizar en Windows Server versión 2008 R2 y posteriores.
 
-* **[!] Importante** Debe usar PowerShell versión 3.0 o posterior para realizar correctamente la actualización (**As a Administrador**).
 * **[!] Importante** Antes de seguir los pasos de este procedimiento, le recomendamos que cree una copia de seguridad de la instancia.
+
+
+
+
 
 
 ### **¿Que instancias estan basadas en nitro?**
@@ -30,6 +41,15 @@
 
 * **[!]** Aunque los controladores AWS PV no se utilizan en el sistema Nitro, aún debe actualizarlos si tiene versiones anteriores de Citrix PV o AWS PV
 
+**Descargar:**  [AWSPVDriver.zip](https://s3.amazonaws.com/ec2-windows-drivers-downloads/AWSPV/Latest/AWSPVDriver.zip) Para instalarlo solamente ejecute el binario: **AWSPVDriverSetup.msi**
+
+### Comprobar PVDrivers
+
+**Ejecutar en powershell como administrador**
+
+```
+Get-ItemProperty HKLM:\SOFTWARE\Amazon\PVDriver
+```
 
 # ENA Drivers
 
@@ -39,12 +59,66 @@ Actualice al controlador del Adaptador de red elástico más reciente para asegu
 * Todos los tipos de instancias de la generación actual admiten redes mejoradas, excepto las instancias T2.
 * Las instancias de la generación actual usan ENA para redes mejoradas, excepto para las instancias C4, D2 y **M4** más pequeñas que `m4.16xlarge`.
 
+ * **[!] Importante** Debe usar PowerShell versión 3.0 o posterior para realizar correctamente la actualización (**As a Administrador**).
+ 
 
+* Si cambiamos de un **r4** a **r5** se debe actualizar instalar los ENA Drivers, esto porque a pesar de que son instancias de última generación **r4** no es instancia nitro, pero **r5** si es instancia nitro, por lo que será necesario instalar los ENA drivers.
+
+
+- **Descargar:**  [AwsEnaNetworkDriver.zip](https://s3.amazonaws.com/ec2-windows-drivers-downloads/ENA/Latest/AwsEnaNetworkDriver.zip) para instalar ejecute el script: **install.ps1** desde una consola de powershell como administrador.
+
+
+
+
+### Habilitar ENA Drivers
+
+**Ejecutar en cloudshell:**
+```
+[cloudshell-user@ip-10-1-60-91 ~]$ aws ec2 modify-instance-attribute --instance-id i-04538e3b48b425f36 --ena-support
+[cloudshell-user@ip-10-1-60-91 ~]$ aws ec2 describe-instances --instance-ids i-04538e3b48b425f36 --query "Reservations[].Instances[].EnaSupport"
+```
 
 
 # NVMe
 
 Los controladores AWS NVMe se utilizan para interactuar con Amazon EBS y volúmenes de almacenamiento de instancias SSD que están expuestos como dispositivos de bloque NVMe en el sistema Nitro para un mejor rendimiento.
 
-**[!] importante** Las siguientes instrucciones se modifican específicamente para cuando instala o actualiza AWS NVMe en una instancia de generación anterior con la intención de migrar la instancia al tipo de instancia de última generación.
+**[!] importante** Actualizar AWS NVMe siempre y cuando deseas cambiar de una instancia de generación anterior a una instancia de última generación.
 
+
+-  **Descargar:**  [AWSNVMe.zip](https://s3.amazonaws.com/ec2-windows-drivers-downloads/NVMe/Latest/AWSNVMe.zip) para instalar ejecuta: **dpinst.exe**.
+
+
+### Ejecutar SysPrep
+
+**Para aplicar el comando, debe ejecutar la sesión de PowerShell como administrador. Las versiones de PowerShell (x86) generarán un error.** 
+```
+PS C:\> rundll32.exe C:\Windows\System32\sppnp.dll,Sysprep_Generalize_Pnp
+```
+
+## Si no cuenta con interfaz grafica.
+
+* **[!]** **Ejecutar los siguientes comandos en powershell como administrador**
+
+
+**Descargar archivos.**
+```
+PS C:\> invoke-webrequest https://s3.amazonaws.com/ec2-windows-drivers-downloads/ENA/Latest/AwsEnaNetworkDriver.zip -outfile $env:USERPROFILE\AwsEnaNetworkDriver.zip
+PS C:\> invoke-webrequest https://s3.amazonaws.com/ec2-windows-drivers-downloads/AWSPV/Latest/AWSPVDriver.zip -outfile $env:USERPROFILE\AWSPVDriver.zip
+PS C:\> invoke-webrequest https://s3.amazonaws.com/ec2-windows-drivers-downloads/NVMe/Latest/AWSNVMe.zip -outfile $env:USERPROFILE\AWSNVMe.zip
+```
+**Descomprimir archivos**
+```
+PS C:\> cd $env:USERPROFILE
+PS C:\> Add-Type -Assembly "System.IO.Compression.Filesystem"
+PS C:\> [System.IO.Compression.ZipFile]::ExtractToDirectory("C:\Ruta\AWSPVDriver.zip", "C:\Ruta\AWSPVDriver")
+PS C:\> [System.IO.Compression.ZipFile]::ExtractToDirectory("C:\Ruta\AwsEnaNetworkDriver.zip", "C:\Ruta\AwsEna")
+PS C:\> [System.IO.Compression.ZipFile]::ExtractToDirectory("C:\Ruta\AWSNVMe.zip", "C:\Ruta\AWSNVMe")
+```
+
+**Para ejecutar un script o binario**
+
+```
+PS C:\> .\binario.msi
+PS C:\> .\script.ps1
+```
