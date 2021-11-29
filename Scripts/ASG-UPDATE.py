@@ -1,3 +1,29 @@
+# Es necesario crear un rol y adjuntarlo al lambda (Creado por Intrusionz3r0) 
+#
+#
+#{
+#    "Version": "2012-10-17",
+#    "Statement": [
+#        {
+#            "Sid": "VisualEditor0",
+#            "Effect": "Allow",
+#            "Action": [
+#                "ec2:DescribeImages",
+#                "autoscaling:CreateLaunchConfiguration",
+#                "ec2:DeregisterImage",
+#                "autoscaling:DeleteLaunchConfiguration",
+#                "ec2:CreateTags",
+#                "autoscaling:DescribeAutoScalingGroups",
+#                "autoscaling:DescribeLaunchConfigurations",
+#                "ec2:CreateImage",
+#                "autoscaling:UpdateAutoScalingGroup",
+#                "autoscaling:CreateAutoScalingGroup"
+#            ],
+#            "Resource": "*"
+#        }
+#    ]
+#}
+
 import datetime,boto3
 
 def lambda_handler(event, context):
